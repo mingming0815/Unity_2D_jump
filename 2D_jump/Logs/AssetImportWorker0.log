@@ -23,114 +23,114 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59835
+49595
 Successfully changed project path to: /Users/chenmingming/Desktop/unity/Unity_2D_jump/2D_jump
 /Users/chenmingming/Desktop/unity/Unity_2D_jump/2D_jump
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 149.11 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 132.58 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.23f1 (b50729e604a9)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.1.23f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/chenmingming/Desktop/unity/Unity_2D_jump/2D_jump/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
-2021-10-01 14:29:27.832 Unity[40619:2884977] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 640 (low power)
-2021-10-01 14:29:27.832 Unity[40619:2884977] Metal devices available: 1
-2021-10-01 14:29:27.832 Unity[40619:2884977] 0: Intel(R) Iris(TM) Plus Graphics 640 (low power)
-2021-10-01 14:29:27.834 Unity[40619:2884977] Using device Intel(R) Iris(TM) Plus Graphics 640 (low power)
+2021-11-04 01:37:31.066 Unity[1161:15616] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 640 (low power)
+2021-11-04 01:37:31.066 Unity[1161:15616] Metal devices available: 1
+2021-11-04 01:37:31.066 Unity[1161:15616] 0: Intel(R) Iris(TM) Plus Graphics 640 (low power)
+2021-11-04 01:37:31.067 Unity[1161:15616] Using device Intel(R) Iris(TM) Plus Graphics 640 (low power)
 Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics 640
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.1.23f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.1.23f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.1.23f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56619
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56161
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.1.23f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.1.23f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.003209 seconds.
+Registered in 0.003485 seconds.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 171.59 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 117.02 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  9.042 seconds
+- Completed reload, in  5.240 seconds
 Domain Reload Profiling:
-	ReloadAssembly (9042ms)
-		BeginReloadAssembly (151ms)
+	ReloadAssembly (5240ms)
+		BeginReloadAssembly (148ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (846ms)
-			LoadAssemblies (153ms)
+		EndReloadAssembly (681ms)
+			LoadAssemblies (150ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (291ms)
+			SetupTypeCache (267ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (63ms)
-			SetupLoadedEditorAssemblies (426ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (304ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
+				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (172ms)
-				BeforeProcessingInitializeOnLoad (4ms)
-				ProcessInitializeOnLoadAttributes (189ms)
-				ProcessInitializeOnLoadMethodAttributes (47ms)
+				RefreshPlugins (117ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (137ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.009837 seconds.
+Registered in 0.012992 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/chenmingming/Desktop/unity/Unity_2D_jump/2D_jump/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/chenmingming/Desktop/unity/Unity_2D_jump/2D_jump/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 132.09 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 122.61 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.162 seconds
+- Completed reload, in  1.984 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2163ms)
-		BeginReloadAssembly (301ms)
+	ReloadAssembly (1985ms)
+		BeginReloadAssembly (300ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (52ms)
-		EndReloadAssembly (1767ms)
-			LoadAssemblies (262ms)
+			CreateAndSetChildDomain (47ms)
+		EndReloadAssembly (1593ms)
+			LoadAssemblies (261ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (661ms)
+			SetupTypeCache (625ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (95ms)
-			SetupLoadedEditorAssemblies (648ms)
+			RebuildScriptCaches (81ms)
+			SetupLoadedEditorAssemblies (552ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (132ms)
-				BeforeProcessingInitializeOnLoad (100ms)
-				ProcessInitializeOnLoadAttributes (384ms)
-				ProcessInitializeOnLoadMethodAttributes (24ms)
+				RefreshPlugins (123ms)
+				BeforeProcessingInitializeOnLoad (88ms)
+				ProcessInitializeOnLoadAttributes (313ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2021.1.23f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
-Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3676 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 253.0 MB.
-System memory in use after: 253.2 MB.
+System memory in use before: 253.4 MB.
+System memory in use after: 253.6 MB.
 
 Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 4126.
-Total: 4.017084 ms (FindLiveObjects: 0.294058 ms CreateObjectMapping: 0.194563 ms MarkObjects: 3.455475 ms  DeleteObjects: 0.071920 ms)
+Total: 4.130633 ms (FindLiveObjects: 0.322652 ms CreateObjectMapping: 0.192161 ms MarkObjects: 3.527927 ms  DeleteObjects: 0.086702 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -145,545 +145,685 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Import Request.
   path: Assets/New Folder
-  artifactKey: Guid(0c99a91f5bc4b49ce97e4ea596486930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Folder using Guid(0c99a91f5bc4b49ce97e4ea596486930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64a5b2e841832fbd7c8e1142b08bceea') in 0.015446 seconds 
+  artifactKey: Guid(3f660a06246cd4dad880fdcf7c3b2c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Folder using Guid(3f660a06246cd4dad880fdcf7c3b2c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ce4b728eb53a12212a4ba01dc08ff20') in 0.006176 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 23.098619 seconds.
-  path: Assets/場景素材
-  artifactKey: Guid(3d6bcd7147bdf4a5ca5d75cf454d02aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材 using Guid(3d6bcd7147bdf4a5ca5d75cf454d02aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d7715a57911c0a813ff2354a1722bfc') in 0.002082 seconds 
+  Time since last request: 12.449902 seconds.
+  path: Assets/圖片
+  artifactKey: Guid(3f660a06246cd4dad880fdcf7c3b2c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片 using Guid(3f660a06246cd4dad880fdcf7c3b2c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7953ff3da660714287fab820afe0a692') in 0.005381 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1220.695751 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork
-  artifactKey: Guid(c40024ffd35744d66bba1915608505b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork using Guid(c40024ffd35744d66bba1915608505b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f39d717f3b36810f19bb9ffbfb49beb') in 0.002644 seconds 
+  Time since last request: 25.430517 seconds.
+  path: Assets/圖片/無標題117_20211104012231.png
+  artifactKey: Guid(deba5cba23b964793b4f3beb6a2fba9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/無標題117_20211104012231.png using Guid(deba5cba23b964793b4f3beb6a2fba9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaad054584b48c4986fce0f19d8834f6') in 0.691777 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.968619 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Environment
-  artifactKey: Guid(ea1eaa9d137874efe96771a87b84ce97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Environment using Guid(ea1eaa9d137874efe96771a87b84ce97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c3f4f48903338c5e29ce1317066ded4') in 0.003530 seconds 
+  Time since last request: 16.658777 seconds.
+  path: Assets/圖片/logo-w.png
+  artifactKey: Guid(deba5cba23b964793b4f3beb6a2fba9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/logo-w.png using Guid(deba5cba23b964793b4f3beb6a2fba9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eac49debc9173c9612d7b46945193687') in 0.024455 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.094954 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Environment/tileset.png
-  artifactKey: Guid(375c6f765985c4a539f757c9c8b5cfec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Environment/tileset.png using Guid(375c6f765985c4a539f757c9c8b5cfec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1193f1ffeee11621acde038081918a5') in 0.802798 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.093090 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Environment/props
-  artifactKey: Guid(6cb63b15237dd4fc18d913c875d282e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Environment/props using Guid(6cb63b15237dd4fc18d913c875d282e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab48906708d7fdc35a23096c46865296') in 0.001746 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.668506 seconds.
-  path: Assets/場景素材/Warped City 2/Prefabs
-  artifactKey: Guid(7b051beae36724c6284c3004d076fb0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Prefabs using Guid(7b051beae36724c6284c3004d076fb0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '843a686588f2c2c70c3f37f585f9b611') in 0.008222 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.585119 seconds.
-  path: Assets/場景素材/Warped City 2/Prefabs/Props Prefabs
-  artifactKey: Guid(c8d547f60c1544cd7b09699fecbff7df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Prefabs/Props Prefabs using Guid(c8d547f60c1544cd7b09699fecbff7df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '401f02fa3df0bd36f7dd8432abfdadf0') in 0.007866 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.080751 seconds.
-  path: Assets/場景素材/Warped City 2/Prefabs/Props Prefabs/Banner A.prefab
-  artifactKey: Guid(f19ea1f96faef4acaadd6f96188fc1e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Prefabs/Props Prefabs/Banner A.prefab using Guid(f19ea1f96faef4acaadd6f96188fc1e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50b7281881452ceefda8a4db42d4cc1a') in 0.567044 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000184 seconds.
-  path: Assets/場景素材/Warped City 2/Prefabs/Props Prefabs/Banner D.prefab
-  artifactKey: Guid(0935e73bb67614beb99d0c5f2e1628ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Prefabs/Props Prefabs/Banner D.prefab using Guid(0935e73bb67614beb99d0c5f2e1628ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26d87875cfd109177d10a24a029e3afc') in 0.020469 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000252 seconds.
-  path: Assets/場景素材/Warped City 2/Prefabs/Props Prefabs/Lights.prefab
-  artifactKey: Guid(b12212edccbbf45bfabca7361cf12f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Prefabs/Props Prefabs/Lights.prefab using Guid(b12212edccbbf45bfabca7361cf12f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d12a0d8a75cae17a7b62f43c29e8a1d') in 0.024454 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000499 seconds.
-  path: Assets/場景素材/Warped City 2/Prefabs/Props Prefabs/Banner E.prefab
-  artifactKey: Guid(f1c0015467521470d9c9ef879382c0dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Prefabs/Props Prefabs/Banner E.prefab using Guid(f1c0015467521470d9c9ef879382c0dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ee1ce29a561760534bd64acfba2a10b') in 0.019668 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000289 seconds.
-  path: Assets/場景素材/Warped City 2/Prefabs/Props Prefabs/Banner B.prefab
-  artifactKey: Guid(0b0f82370c5c74b22988bb37c0441a99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Prefabs/Props Prefabs/Banner B.prefab using Guid(0b0f82370c5c74b22988bb37c0441a99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d66bbd04b4b00109bcd779c38f53b46') in 0.024294 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000353 seconds.
-  path: Assets/場景素材/Warped City 2/Prefabs/Props Prefabs/Banner C.prefab
-  artifactKey: Guid(790308497e51446d5ba62fe622463e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Prefabs/Props Prefabs/Banner C.prefab using Guid(790308497e51446d5ba62fe622463e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f9a02a516024a5db108723b823518ce') in 0.026573 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.328572 seconds.
-  path: Assets/場景素材/Warped City 2/Prefabs/Misc Prefabs/Enemy Shoot.prefab
-  artifactKey: Guid(1d4038a6399a9474186021bc95141960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Prefabs/Misc Prefabs/Enemy Shoot.prefab using Guid(1d4038a6399a9474186021bc95141960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb1f29dbf21a9fbd506c9aa198ddc6cd') in 0.022569 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000270 seconds.
-  path: Assets/場景素材/Warped City 2/Prefabs/Misc Prefabs/Explosion.prefab
-  artifactKey: Guid(e360672ae39314ff1a77fee796e40aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Prefabs/Misc Prefabs/Explosion.prefab using Guid(e360672ae39314ff1a77fee796e40aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae531120d64c16a2437f7ce0cbf7c3c3') in 0.036856 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/場景素材/Warped City 2/Prefabs/Misc Prefabs/Player Shoot.prefab
-  artifactKey: Guid(6874799162c5e43ad8b8d2f5d917f42f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Prefabs/Misc Prefabs/Player Shoot.prefab using Guid(6874799162c5e43ad8b8d2f5d917f42f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd965696ada26d71ab338eeb03fb27c32') in 0.026813 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.981889 seconds.
-  path: Assets/場景素材/Warped City 2/Prefabs/Characters Prefabs/Cop.prefab
-  artifactKey: Guid(b4bce5b4dff684ae88017b2ce6cdea46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Prefabs/Characters Prefabs/Cop.prefab using Guid(b4bce5b4dff684ae88017b2ce6cdea46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13064d0c04467e50bfbdf16c37cc9f84') in 0.021546 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/場景素材/Warped City 2/Prefabs/Characters Prefabs/Turret Idle.prefab
-  artifactKey: Guid(511cd3514a9024c9ca822be22c9a0e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Prefabs/Characters Prefabs/Turret Idle.prefab using Guid(511cd3514a9024c9ca822be22c9a0e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3feb7b17d061aa374092039a5c27cd58') in 0.028132 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/場景素材/Warped City 2/Prefabs/Characters Prefabs/Player Duck.prefab
-  artifactKey: Guid(5a91664aefca744b781a4a78fff753ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Prefabs/Characters Prefabs/Player Duck.prefab using Guid(5a91664aefca744b781a4a78fff753ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3de709fac011d4c4248451acf6ae58e2') in 0.020064 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/場景素材/Warped City 2/Prefabs/Characters Prefabs/Turret Shoot.prefab
-  artifactKey: Guid(4433234558afd42f4868b4d2fee8b1ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Prefabs/Characters Prefabs/Turret Shoot.prefab using Guid(4433234558afd42f4868b4d2fee8b1ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '273bde5ec4cda3d3f1f609139a5fa780') in 0.018321 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000325 seconds.
-  path: Assets/場景素材/Warped City 2/Prefabs/Characters Prefabs/Player Run.prefab
-  artifactKey: Guid(2e90b44c04cea4c0fa1cd6625c5bc242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Prefabs/Characters Prefabs/Player Run.prefab using Guid(2e90b44c04cea4c0fa1cd6625c5bc242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebe2ffd4931ee009953dfcf2d3d4bcac') in 0.026996 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/場景素材/Warped City 2/Prefabs/Characters Prefabs/Player Shoot.prefab
-  artifactKey: Guid(b9829cba718174213bd97fb64398432d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Prefabs/Characters Prefabs/Player Shoot.prefab using Guid(b9829cba718174213bd97fb64398432d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc4becd17f8f09a7a4f99d8263203c57') in 0.020763 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000425 seconds.
-  path: Assets/場景素材/Warped City 2/Prefabs/Characters Prefabs/Player Jump.prefab
-  artifactKey: Guid(bfd59b186674148d7bf380ac19f85a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Prefabs/Characters Prefabs/Player Jump.prefab using Guid(bfd59b186674148d7bf380ac19f85a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0f267d5a55f14b29bd4591d35bd949b') in 0.021212 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000333 seconds.
-  path: Assets/場景素材/Warped City 2/Prefabs/Characters Prefabs/Player Fall.prefab
-  artifactKey: Guid(098d4a05a626b4cf0a9b03cb47f5f9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Prefabs/Characters Prefabs/Player Fall.prefab using Guid(098d4a05a626b4cf0a9b03cb47f5f9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51ee95649ea123e68a04325fe75f56a0') in 0.026984 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/場景素材/Warped City 2/Prefabs/Characters Prefabs/Player Idle.prefab
-  artifactKey: Guid(24f1134deedd24bd8a42117e97e04308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Prefabs/Characters Prefabs/Player Idle.prefab using Guid(24f1134deedd24bd8a42117e97e04308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3743b6d4bdfa53881748f8b1f45396e7') in 0.022489 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.158335 seconds.
-  path: Assets/場景素材/Warped City 2/Music/cyber city 2-b.wav
-  artifactKey: Guid(70a7f84c0ae334453a44a60563463702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Music/cyber city 2-b.wav using Guid(70a7f84c0ae334453a44a60563463702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77d9675af522aefaffaffe1cd0d2d4a4') in 0.505194 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/場景素材/Warped City 2/Music/cyberpunk city 2.wav
-  artifactKey: Guid(ec63dce1e06684e51969fda535cbc967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Music/cyberpunk city 2.wav using Guid(ec63dce1e06684e51969fda535cbc967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a477072f40ae2a2b59be615ba2b8657') in 0.014540 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.647729 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Sprites/cop
-  artifactKey: Guid(5a20970d2f0084bf6a6618e524aaf13f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Sprites/cop using Guid(5a20970d2f0084bf6a6618e524aaf13f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78f4ae9b608b0fa714ab8706a7064f01') in 0.008035 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.088305 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Sprites/cop/idle
-  artifactKey: Guid(018709fbb23c7440a9df77bf48951c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Sprites/cop/idle using Guid(018709fbb23c7440a9df77bf48951c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e412d8c369497ac4ecec35ddfe154e4c') in 0.007688 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.073623 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Sprites/cop/idle/cop1.png
-  artifactKey: Guid(95c7804272e634b61880d674a0216f07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Sprites/cop/idle/cop1.png using Guid(95c7804272e634b61880d674a0216f07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b5330929f2e3bd64fa2372f3f48ea4c') in 0.013149 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Sprites/cop/idle/cop2.png
-  artifactKey: Guid(244a6dfe0751f48cfb7e63cafa8f497b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Sprites/cop/idle/cop2.png using Guid(244a6dfe0751f48cfb7e63cafa8f497b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bbf7719805e6fca1be66522f3b52406') in 0.009927 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000292 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Sprites/cop/idle/cop3.png
-  artifactKey: Guid(54c41bf2df0904674ba66e237602c60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Sprites/cop/idle/cop3.png using Guid(54c41bf2df0904674ba66e237602c60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdd1023d8acf2057aedddc3026c40cf3') in 0.023218 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.962140 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Sprites/cop/run/cop1.png
-  artifactKey: Guid(9c0539808e6ca4a478479527a01cafad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Sprites/cop/run/cop1.png using Guid(9c0539808e6ca4a478479527a01cafad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93dd7be2bb509b74be30e325ac44cfa9') in 0.009530 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Sprites/cop/run/cop3.png
-  artifactKey: Guid(0db93b5a8e57b4fb896c50ffc47bf664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Sprites/cop/run/cop3.png using Guid(0db93b5a8e57b4fb896c50ffc47bf664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2904602d7085a3420f2680a36128e966') in 0.024154 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Sprites/cop/run/cop2.png
-  artifactKey: Guid(be3f3bbb717244c62a347b2239c90d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Sprites/cop/run/cop2.png using Guid(be3f3bbb717244c62a347b2239c90d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f259e3813b71c6b8827636802eaf04c0') in 0.021999 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000422 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Sprites/cop/run/cop8.png
-  artifactKey: Guid(a5050247169464979aa02ca80f9d4b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Sprites/cop/run/cop8.png using Guid(a5050247169464979aa02ca80f9d4b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebb5410b8ca4d697c63af41f040fa949') in 0.014398 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000389 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Sprites/cop/run/cop4.png
-  artifactKey: Guid(d26b3ca90d53a4e5d95d66374d9f02d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Sprites/cop/run/cop4.png using Guid(d26b3ca90d53a4e5d95d66374d9f02d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd8e24afd3d4e3fb2426fae489bf8665') in 0.021208 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Sprites/cop/run/cop9.png
-  artifactKey: Guid(9c20cb02c12d446d9aa565d5d57d3093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Sprites/cop/run/cop9.png using Guid(9c20cb02c12d446d9aa565d5d57d3093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f10e20e0bad050c87f025eacdbeb3aad') in 0.023689 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Sprites/cop/run/cop7.png
-  artifactKey: Guid(4fc944e3998bf49b0bcc27cddb225fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Sprites/cop/run/cop7.png using Guid(4fc944e3998bf49b0bcc27cddb225fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1da79c38ea6e967abf4a47bfce39aa65') in 0.018481 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000473 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Sprites/cop/run/cop6.png
-  artifactKey: Guid(27af39ad677584f398d6c9dc479e9f2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Sprites/cop/run/cop6.png using Guid(27af39ad677584f398d6c9dc479e9f2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4638d54e4d496ab4a28b1206c1725db') in 0.018267 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Sprites/cop/run/cop5.png
-  artifactKey: Guid(82353a4b400144f1ea954be0318bcbc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Sprites/cop/run/cop5.png using Guid(82353a4b400144f1ea954be0318bcbc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ee74465c8d9e37cc766e7a06796dbdf') in 0.023074 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Sprites/cop/run/cop10.png
-  artifactKey: Guid(4e550b5b96e97430e8b00a7699045297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Sprites/cop/run/cop10.png using Guid(4e550b5b96e97430e8b00a7699045297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '471591dc8a27556513d856be5b232143') in 0.017801 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.516875 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Sprites/explosion-a/explosion-a1.png
-  artifactKey: Guid(10092d5283893408d828f5c24d7dae29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Sprites/explosion-a/explosion-a1.png using Guid(10092d5283893408d828f5c24d7dae29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7cffe590fb3b0e592aff0ac03d37594') in 0.010388 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000282 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Sprites/explosion-a/explosion-a3.png
-  artifactKey: Guid(97433ac68b7194e30b0d08a148fc8d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Sprites/explosion-a/explosion-a3.png using Guid(97433ac68b7194e30b0d08a148fc8d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e44ea8cf800c691ba3ac8523b4918a87') in 0.029660 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000285 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Sprites/explosion-a/explosion-a7.png
-  artifactKey: Guid(2b25845adaa764879b4aef641f018f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Sprites/explosion-a/explosion-a7.png using Guid(2b25845adaa764879b4aef641f018f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fe9d6224f9368c5e021bd6e6f65a976') in 0.025235 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Sprites/explosion-a/explosion-a8.png
-  artifactKey: Guid(c3f0c4279698d41e2af609f3335920ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Sprites/explosion-a/explosion-a8.png using Guid(c3f0c4279698d41e2af609f3335920ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f96fb4a60b459eab81f526892cac6f67') in 0.026021 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000249 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Sprites/explosion-a/explosion-a2.png
-  artifactKey: Guid(ecf973658c5f647ea8e1354818842cf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Sprites/explosion-a/explosion-a2.png using Guid(ecf973658c5f647ea8e1354818842cf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30b2c6d9765c31a10123dccebafa28ec') in 0.021319 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Sprites/explosion-a/explosion-a6.png
-  artifactKey: Guid(97367e19b6cc94dcc8b11e807e401578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Sprites/explosion-a/explosion-a6.png using Guid(97367e19b6cc94dcc8b11e807e401578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec0aed471ae59300e7fad58a1e9a1918') in 0.018617 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Sprites/explosion-a/explosion-a4.png
-  artifactKey: Guid(6c874efbe756345b8827e651c901f6eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Sprites/explosion-a/explosion-a4.png using Guid(6c874efbe756345b8827e651c901f6eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3f395ed191b62feb45ac98b518c2b28') in 0.019834 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Sprites/explosion-a/explosion-a5.png
-  artifactKey: Guid(8dbc704ec8784467a8159765b17d5f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Sprites/explosion-a/explosion-a5.png using Guid(8dbc704ec8784467a8159765b17d5f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00866485c50dcc54bdb250c5099329d2') in 0.019339 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.191818 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Sprites/player-shoot/player-shoot1.png
-  artifactKey: Guid(30ce844389ea449c7b9200b5e743add4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Sprites/player-shoot/player-shoot1.png using Guid(30ce844389ea449c7b9200b5e743add4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26f1b1d48039103519bd205e45888111') in 0.010291 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Sprites/player-shoot/player-shoot2.png
-  artifactKey: Guid(dcc1f40d72ee34fc3a6afed7b40d9957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Sprites/player-shoot/player-shoot2.png using Guid(dcc1f40d72ee34fc3a6afed7b40d9957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd700b284734e0c564be4f3d5bf6d695a') in 0.026368 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000279 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Sprites/player-shoot/player-shoot3.png
-  artifactKey: Guid(7e8261f0ad30f4848a47a976c9747b18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Sprites/player-shoot/player-shoot3.png using Guid(7e8261f0ad30f4848a47a976c9747b18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b078f89b5f0c5d4235c261d5d41ae13') in 0.022745 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Sprites/player-shoot/player-shoot4.png
-  artifactKey: Guid(5480de29e5cdd4a16aa3223cfff74a25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Sprites/player-shoot/player-shoot4.png using Guid(5480de29e5cdd4a16aa3223cfff74a25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16df479b74386246a805342c044d44d1') in 0.016365 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 18.887390 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Environment/background/back.png
-  artifactKey: Guid(27967ee1f727640d3a07da062fa83401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Environment/background/back.png using Guid(27967ee1f727640d3a07da062fa83401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99a4188500ef67a3fc80a18e5962a9f2') in 0.016521 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Environment/background/middle.png
-  artifactKey: Guid(186447cd9ce584283af377113c1cade8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Environment/background/middle.png using Guid(186447cd9ce584283af377113c1cade8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '656af88279a7b59a8c5a4d1c7be21566') in 0.056012 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Environment/background/front.png
-  artifactKey: Guid(6e929c941613e44cbb3e08149ba789e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Environment/background/front.png using Guid(6e929c941613e44cbb3e08149ba789e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '282b41f3ad0cd6cc10779241f48a2cb3') in 0.038546 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.614574 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Environment/props/banner-a
-  artifactKey: Guid(b2bb1751517194e2cb3630bfe5f87ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Environment/props/banner-a using Guid(b2bb1751517194e2cb3630bfe5f87ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '955fbd95ef1de91eccaaca8d7df43004') in 0.008413 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.126612 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Environment/props/banner-a/banner-a1.png
-  artifactKey: Guid(60b6c5ce95e6c4521812260e6a16c197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Environment/props/banner-a/banner-a1.png using Guid(60b6c5ce95e6c4521812260e6a16c197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '531e656c441b2f53bec8c8ee934eeb8a') in 0.010337 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Environment/props/banner-a/banner-a2.png
-  artifactKey: Guid(13171e6f848b94748991781c3bc59974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Environment/props/banner-a/banner-a2.png using Guid(13171e6f848b94748991781c3bc59974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bca35ecf6344cf98ccea9c774e73b7a') in 0.028040 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Environment/props/banner-a/banner-a3.png
-  artifactKey: Guid(5da0a5444474e48c0847c5b2c5f8b4aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Environment/props/banner-a/banner-a3.png using Guid(5da0a5444474e48c0847c5b2c5f8b4aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64598f7c655bdaf800cf0f1af2495d0c') in 0.022442 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Environment/props/banner-a/banner-a4.png
-  artifactKey: Guid(ab015c4a4aeaa421897fd7bd71c0237b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Environment/props/banner-a/banner-a4.png using Guid(ab015c4a4aeaa421897fd7bd71c0237b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3441218ef960f68aabf484026fe9133') in 0.016337 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.527160 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Environment/props/banner-b/banner-b1.png
-  artifactKey: Guid(20ce485b239644478b559950ddad51ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Environment/props/banner-b/banner-b1.png using Guid(20ce485b239644478b559950ddad51ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a405a09092a4b7dcb2a4aed892d7501c') in 0.011593 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Environment/props/banner-b/banner-b4.png
-  artifactKey: Guid(8e1832df038e3447e82d137c9f48eb4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Environment/props/banner-b/banner-b4.png using Guid(8e1832df038e3447e82d137c9f48eb4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2622e0877aa49327b96f4aad9b3d09e8') in 0.027791 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Environment/props/banner-b/banner-b3.png
-  artifactKey: Guid(f5b50f95bf82e44459a35f7f9ab74ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Environment/props/banner-b/banner-b3.png using Guid(f5b50f95bf82e44459a35f7f9ab74ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf846261bb5b76ccc97ad26fa91809bc') in 0.021216 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Environment/props/banner-b/banner-b2.png
-  artifactKey: Guid(cdcf11b1ff39e4b2ca68e69072528a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Environment/props/banner-b/banner-b2.png using Guid(cdcf11b1ff39e4b2ca68e69072528a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '808b7c64093f22a642f8c00945056843') in 0.026963 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.552828 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Environment/props/banner-c/banner-c1.png
-  artifactKey: Guid(4f87bc8f892da4537ac7ed907f405317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Environment/props/banner-c/banner-c1.png using Guid(4f87bc8f892da4537ac7ed907f405317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '821936b58c55ad7a2b57853ba3b5ea80') in 0.012999 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000411 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Environment/props/banner-c/banner-c4.png
-  artifactKey: Guid(2c9e66c8069cb4420a8b4d6efd2c2918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Environment/props/banner-c/banner-c4.png using Guid(2c9e66c8069cb4420a8b4d6efd2c2918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90ea168240690b340beff7fe9bffbf0d') in 0.027618 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Environment/props/banner-c/banner-c2.png
-  artifactKey: Guid(ce143725ea31d47a29753fad243f7242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Environment/props/banner-c/banner-c2.png using Guid(ce143725ea31d47a29753fad243f7242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fed3d79de6f3136d26ed84b96a26dd61') in 0.015992 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000395 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Environment/props/banner-c/banner-c3.png
-  artifactKey: Guid(0c745209201414f3982142a490049078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Environment/props/banner-c/banner-c3.png using Guid(0c745209201414f3982142a490049078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bd13d3395fbd328a8f4e22bebbb5233') in 0.020883 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.523513 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Environment/props/banner-d/banner-d1.png
-  artifactKey: Guid(cd7cb7537828e467da43a8434a04a7e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Environment/props/banner-d/banner-d1.png using Guid(cd7cb7537828e467da43a8434a04a7e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7cf934d0aa00886fe6b9f46815dd9df') in 0.017558 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000286 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Environment/props/banner-d/banner-d2.png
-  artifactKey: Guid(ea932d77e62c64ba599fbf33d0af18e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Environment/props/banner-d/banner-d2.png using Guid(ea932d77e62c64ba599fbf33d0af18e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdbb14a23b108e6bca1ccf38204ceb3f') in 0.018783 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Environment/props/banner-d/banner-d3.png
-  artifactKey: Guid(cd482460ba2a94e2eb5d4b01d7acc105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Environment/props/banner-d/banner-d3.png using Guid(cd482460ba2a94e2eb5d4b01d7acc105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b02cd538c5f04dcdab4afc9e36eecde') in 0.025109 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Environment/props/banner-d/banner-d4.png
-  artifactKey: Guid(5434301a4814c4233ad3e13118ff01db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Environment/props/banner-d/banner-d4.png using Guid(5434301a4814c4233ad3e13118ff01db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ed824f0515ca8d483c79c3f03ced05d') in 0.014860 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.331877 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Environment/props/banner-e/banner-e1.png
-  artifactKey: Guid(b04ad4186cd264aeeb3d86ba30376c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Environment/props/banner-e/banner-e1.png using Guid(b04ad4186cd264aeeb3d86ba30376c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f84077ebcaa34baeeb573579dfeb059') in 0.013467 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Environment/props/banner-e/banner-e3.png
-  artifactKey: Guid(e7e63ebad289641719916ea4fe9b6252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Environment/props/banner-e/banner-e3.png using Guid(e7e63ebad289641719916ea4fe9b6252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f44603ba473b8f03a9463dfc8de6e7c') in 0.027022 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Environment/props/banner-e/banner-e2.png
-  artifactKey: Guid(66f1ee18941ae4b8e93d71c06506bdd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Environment/props/banner-e/banner-e2.png using Guid(66f1ee18941ae4b8e93d71c06506bdd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb2b6206f6931cb66639e6f3e7a8b03a') in 0.015580 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Environment/props/banner-e/banner-e4.png
-  artifactKey: Guid(4a20f0a21afb9497cbd80c6bb5feeb52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Environment/props/banner-e/banner-e4.png using Guid(4a20f0a21afb9497cbd80c6bb5feeb52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea11b44a0309939da0b4586de604f747') in 0.018117 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.296009 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Environment/props/lights/lights1.png
-  artifactKey: Guid(580e016475635465d87529195e8bb19f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Environment/props/lights/lights1.png using Guid(580e016475635465d87529195e8bb19f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02c2a9e3a8701d0a0c249dc2488b5c90') in 0.011331 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Environment/props/lights/lights4.png
-  artifactKey: Guid(7298f535f871d45d19c111daf2417a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Environment/props/lights/lights4.png using Guid(7298f535f871d45d19c111daf2417a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '484c86efef853ce07af4cd3429fccc80') in 0.023996 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000176 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Environment/props/lights/lights3.png
-  artifactKey: Guid(6091fb7113dc643819b05493ceb38191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Environment/props/lights/lights3.png using Guid(6091fb7113dc643819b05493ceb38191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '863bddb8f1ba9fb375ea394e975662ab') in 0.021993 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000599 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Environment/props/lights/lights2.png
-  artifactKey: Guid(655bb711b00e24066833bd8e52fdbae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Environment/props/lights/lights2.png using Guid(655bb711b00e24066833bd8e52fdbae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '587962f593717e9cfee8fd53ad1a9f11') in 0.017079 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.655238 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Sprites/enemy-shoot/enemy-shoot1.png
-  artifactKey: Guid(51d53c318644c4e5eb0f1e89c8f69359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Sprites/enemy-shoot/enemy-shoot1.png using Guid(51d53c318644c4e5eb0f1e89c8f69359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5633d4d2a5d38134b4d479ca7a5c3d39') in 0.016171 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Sprites/enemy-shoot/enemy-shoot2.png
-  artifactKey: Guid(d151ca8a55d68446aa8acc1b8bf672e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Sprites/enemy-shoot/enemy-shoot2.png using Guid(d151ca8a55d68446aa8acc1b8bf672e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db2af43521b491e640339cb3933e0dfc') in 0.027988 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Sprites/enemy-shoot/enemy-shoot3.png
-  artifactKey: Guid(b2ee0f111526040a6b56c0621d297bf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Sprites/enemy-shoot/enemy-shoot3.png using Guid(b2ee0f111526040a6b56c0621d297bf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13563ee87eeddd8e9790e144e6f609cb') in 0.015778 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.848690 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Sprites/Player/Duck
-  artifactKey: Guid(44b1ff619adac4ea58f21cfe9210e8cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Sprites/Player/Duck using Guid(44b1ff619adac4ea58f21cfe9210e8cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '470d3a0d9163fdb5d025ad20429c99f6') in 0.008199 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.070583 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Sprites/Player/Duck/Duck1.png
-  artifactKey: Guid(4ee418e99554d494292cc9b02de0fa44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Sprites/Player/Duck/Duck1.png using Guid(4ee418e99554d494292cc9b02de0fa44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b02ec06446145f8b8d0edb8367f5c37d') in 0.014164 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000285 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Sprites/Player/Duck/Duck2.png
-  artifactKey: Guid(ab6a8991c04a34e968f6a942cf2f37b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Sprites/Player/Duck/Duck2.png using Guid(ab6a8991c04a34e968f6a942cf2f37b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91fcbc85778482e00fc927e6fa0f482b') in 0.012548 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Sprites/Player/Duck/Duck4.png
-  artifactKey: Guid(e7ae0ce7b4ae1475f9324a71d0e1619f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Sprites/Player/Duck/Duck4.png using Guid(e7ae0ce7b4ae1475f9324a71d0e1619f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ed16e2357b33ab1339ae34589141225') in 0.015759 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Sprites/Player/Duck/Duck3.png
-  artifactKey: Guid(93fd139124dec4b1a95a992017ef7090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Sprites/Player/Duck/Duck3.png using Guid(93fd139124dec4b1a95a992017ef7090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbc4619d5466f90f18f3e76574a18a63') in 0.019389 seconds 
+  Time since last request: 6.144021 seconds.
+  path: Assets/圖片/無標題117_20211104012154.png
+  artifactKey: Guid(4242a619aa89347e7b36075a1bbfca69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/無標題117_20211104012154.png using Guid(4242a619aa89347e7b36075a1bbfca69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ede53d08980e87d627dff8b0fb3a15ef') in 0.016549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.708336 seconds.
+  path: Assets/圖片/logo-B.png
+  artifactKey: Guid(4242a619aa89347e7b36075a1bbfca69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/logo-B.png using Guid(4242a619aa89347e7b36075a1bbfca69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4c4ace554f282df1500650f3ad6d431') in 0.017736 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1503.346633 seconds.
+  path: Assets/材質球/開始畫面背景.mat
+  artifactKey: Guid(40bbb0ba04053433cb624949f8d984d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/材質球/開始畫面背景.mat using Guid(40bbb0ba04053433cb624949f8d984d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48fcd5df2b1b476829d6405b39638095') in 1.002403 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 154.304558 seconds.
+  path: Assets/材質球/開始畫面背景.mat
+  artifactKey: Guid(40bbb0ba04053433cb624949f8d984d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/材質球/開始畫面背景.mat using Guid(40bbb0ba04053433cb624949f8d984d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc67dc66cce43b55e26dd0dd2e9f8bc8') in 0.161315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 937.585624 seconds.
+  path: Assets/場景
+  artifactKey: Guid(c326575ba79a645bbb6cc18916c8563c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景 using Guid(c326575ba79a645bbb6cc18916c8563c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ff02785e253cd076db337c8df262e10') in 0.003775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.296069 seconds.
+  path: Assets/素材
+  artifactKey: Guid(570ca5676acc74dfbbb11210b08c0be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/素材 using Guid(570ca5676acc74dfbbb11210b08c0be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d8292f46fc6ceb6c7b4fda092798452') in 0.003876 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.858145 seconds.
+  path: Assets/素材/KouzanBrushFontSousyo.ttf
+  artifactKey: Guid(896c6408fce0847849f423ec90395af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/素材/KouzanBrushFontSousyo.ttf using Guid(896c6408fce0847849f423ec90395af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fde78824a33710c006ced495bcef469') in 0.554880 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 169.362033 seconds.
+  path: Assets/素材/日本書法大司.ttf
+  artifactKey: Guid(896c6408fce0847849f423ec90395af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/素材/日本書法大司.ttf using Guid(896c6408fce0847849f423ec90395af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74f18e4977dfd790e13e86202f450de8') in 0.050058 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.369104 seconds.
+  path: Assets/素材/KouzanMouhituFontOTF.otf
+  artifactKey: Guid(50f45cc9702014af0bc56ab783bf8dc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/素材/KouzanMouhituFontOTF.otf using Guid(50f45cc9702014af0bc56ab783bf8dc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73007c4525f4ff60439c9f1a5dbce035') in 0.430268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.210009 seconds.
+  path: Assets/素材/衡.otf
+  artifactKey: Guid(50f45cc9702014af0bc56ab783bf8dc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/素材/衡.otf using Guid(50f45cc9702014af0bc56ab783bf8dc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fecd2398d4793b3084b3138ef0f7d60') in 0.037669 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.948848 seconds.
+  path: Assets/素材/衡山毛筆.otf
+  artifactKey: Guid(50f45cc9702014af0bc56ab783bf8dc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/素材/衡山毛筆.otf using Guid(50f45cc9702014af0bc56ab783bf8dc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '224efebbb952ea67778f2b47244ff8f6') in 0.036577 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2973.732502 seconds.
+  path: Assets/材質球/開始畫面背景.mat
+  artifactKey: Guid(40bbb0ba04053433cb624949f8d984d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/材質球/開始畫面背景.mat using Guid(40bbb0ba04053433cb624949f8d984d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43f1a1b70bcff09a624f1773087e01bf') in 0.044650 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010295 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/chenmingming/Desktop/unity/Unity_2D_jump/2D_jump/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/chenmingming/Desktop/unity/Unity_2D_jump/2D_jump/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.627 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1628ms)
+		BeginReloadAssembly (282ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (170ms)
+		EndReloadAssembly (1265ms)
+			LoadAssemblies (110ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (544ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (67ms)
+			SetupLoadedEditorAssemblies (376ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (62ms)
+				ProcessInitializeOnLoadAttributes (294ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (21ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3670 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 284.4 MB.
+System memory in use after: 284.7 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 4306.
+Total: 4.395104 ms (FindLiveObjects: 0.398327 ms CreateObjectMapping: 0.272598 ms MarkObjects: 3.684877 ms  DeleteObjects: 0.038102 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009302 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/chenmingming/Desktop/unity/Unity_2D_jump/2D_jump/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/chenmingming/Desktop/unity/Unity_2D_jump/2D_jump/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.605 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1605ms)
+		BeginReloadAssembly (174ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (99ms)
+		EndReloadAssembly (1350ms)
+			LoadAssemblies (90ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (650ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (380ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (294ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3666 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 284.6 MB.
+System memory in use after: 284.9 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 4309.
+Total: 4.029330 ms (FindLiveObjects: 0.299423 ms CreateObjectMapping: 0.187784 ms MarkObjects: 3.519678 ms  DeleteObjects: 0.021286 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010623 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/chenmingming/Desktop/unity/Unity_2D_jump/2D_jump/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/chenmingming/Desktop/unity/Unity_2D_jump/2D_jump/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.057 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2057ms)
+		BeginReloadAssembly (285ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (101ms)
+		EndReloadAssembly (1684ms)
+			LoadAssemblies (301ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (589ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (80ms)
+			SetupLoadedEditorAssemblies (617ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (517ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (26ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3666 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 284.9 MB.
+System memory in use after: 285.1 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 4312.
+Total: 6.483188 ms (FindLiveObjects: 1.980128 ms CreateObjectMapping: 0.341176 ms MarkObjects: 4.138254 ms  DeleteObjects: 0.022053 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008872 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/chenmingming/Desktop/unity/Unity_2D_jump/2D_jump/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/chenmingming/Desktop/unity/Unity_2D_jump/2D_jump/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.512 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1513ms)
+		BeginReloadAssembly (172ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (98ms)
+		EndReloadAssembly (1261ms)
+			LoadAssemblies (93ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (568ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (69ms)
+			SetupLoadedEditorAssemblies (360ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (64ms)
+				ProcessInitializeOnLoadAttributes (275ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (23ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3666 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 285.1 MB.
+System memory in use after: 285.3 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 4315.
+Total: 3.971430 ms (FindLiveObjects: 0.308926 ms CreateObjectMapping: 0.201957 ms MarkObjects: 3.438454 ms  DeleteObjects: 0.020906 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002447 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/chenmingming/Desktop/unity/Unity_2D_jump/2D_jump/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/chenmingming/Desktop/unity/Unity_2D_jump/2D_jump/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.589 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1589ms)
+		BeginReloadAssembly (183ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (101ms)
+		EndReloadAssembly (1326ms)
+			LoadAssemblies (101ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (568ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (77ms)
+			SetupLoadedEditorAssemblies (425ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (68ms)
+				ProcessInitializeOnLoadAttributes (337ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3666 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 285.3 MB.
+System memory in use after: 285.6 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 4318.
+Total: 3.996392 ms (FindLiveObjects: 0.305034 ms CreateObjectMapping: 0.218311 ms MarkObjects: 3.451499 ms  DeleteObjects: 0.020398 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002373 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/chenmingming/Desktop/unity/Unity_2D_jump/2D_jump/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/chenmingming/Desktop/unity/Unity_2D_jump/2D_jump/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.527 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1527ms)
+		BeginReloadAssembly (164ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (89ms)
+		EndReloadAssembly (1284ms)
+			LoadAssemblies (92ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (538ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (78ms)
+			SetupLoadedEditorAssemblies (419ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (326ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3666 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 285.5 MB.
+System memory in use after: 285.8 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 4321.
+Total: 4.092491 ms (FindLiveObjects: 0.324636 ms CreateObjectMapping: 0.229384 ms MarkObjects: 3.508476 ms  DeleteObjects: 0.028670 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002379 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/chenmingming/Desktop/unity/Unity_2D_jump/2D_jump/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/chenmingming/Desktop/unity/Unity_2D_jump/2D_jump/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.525 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1526ms)
+		BeginReloadAssembly (177ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (97ms)
+		EndReloadAssembly (1266ms)
+			LoadAssemblies (93ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (534ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (72ms)
+			SetupLoadedEditorAssemblies (404ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (319ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3666 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 285.8 MB.
+System memory in use after: 286.0 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 4324.
+Total: 4.083633 ms (FindLiveObjects: 0.303948 ms CreateObjectMapping: 0.207527 ms MarkObjects: 3.548853 ms  DeleteObjects: 0.022112 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002385 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/chenmingming/Desktop/unity/Unity_2D_jump/2D_jump/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/chenmingming/Desktop/unity/Unity_2D_jump/2D_jump/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.10 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.549 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1549ms)
+		BeginReloadAssembly (162ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (86ms)
+		EndReloadAssembly (1308ms)
+			LoadAssemblies (91ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (535ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (76ms)
+			SetupLoadedEditorAssemblies (405ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (321ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3666 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 286.0 MB.
+System memory in use after: 286.2 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 4327.
+Total: 4.076681 ms (FindLiveObjects: 0.298493 ms CreateObjectMapping: 0.205250 ms MarkObjects: 3.550550 ms  DeleteObjects: 0.021206 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003254 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/chenmingming/Desktop/unity/Unity_2D_jump/2D_jump/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/chenmingming/Desktop/unity/Unity_2D_jump/2D_jump/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.616 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1617ms)
+		BeginReloadAssembly (181ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (93ms)
+		EndReloadAssembly (1357ms)
+			LoadAssemblies (103ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (539ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (69ms)
+			SetupLoadedEditorAssemblies (435ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (349ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (26ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3666 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 286.2 MB.
+System memory in use after: 286.4 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 4330.
+Total: 3.988203 ms (FindLiveObjects: 0.297149 ms CreateObjectMapping: 0.190193 ms MarkObjects: 3.476795 ms  DeleteObjects: 0.022833 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002479 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/chenmingming/Desktop/unity/Unity_2D_jump/2D_jump/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/chenmingming/Desktop/unity/Unity_2D_jump/2D_jump/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.450 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1450ms)
+		BeginReloadAssembly (179ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (94ms)
+		EndReloadAssembly (1187ms)
+			LoadAssemblies (98ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (510ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (357ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (274ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3666 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 286.4 MB.
+System memory in use after: 286.6 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 4333.
+Total: 8.181866 ms (FindLiveObjects: 1.471441 ms CreateObjectMapping: 0.878862 ms MarkObjects: 5.799623 ms  DeleteObjects: 0.029214 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
