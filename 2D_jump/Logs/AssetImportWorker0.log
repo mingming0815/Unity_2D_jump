@@ -1,1013 +1,584 @@
-Unity Editor version:    2021.1.23f1 (b50729e604a9)
-Branch:                  2021.1/staging
-Build type:              Release
-Batch mode:              YES
-macOS version:           Version 10.15.7 (Build 19H1217)
-Darwin version:          19.6.0
-Architecture:            x86_64
-Running under Rosetta:   NO
-Available memory:        8192 MB
 Using pre-set license
-Pro License: NO
-Pro License: NO
+Built from '2020.3/staging' branch; Version is '2020.3.18f1 (a7d1c678663c) revision 10998214'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Education; OS build 18363.1854; Version 1909; 64bit' Language: 'zh' Physical Memory: 8038 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
-/Applications/Unity/Hub/Editor/2021.1.23f1/Unity.app/Contents/MacOS/Unity
+D:\untiy\2020.3.18f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-/Users/chenmingming/Desktop/unity/Unity_2D_jump/2D_jump
+D:/uuh/Unity_2D_jump/2D_jump
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51567
-Successfully changed project path to: /Users/chenmingming/Desktop/unity/Unity_2D_jump/2D_jump
-/Users/chenmingming/Desktop/unity/Unity_2D_jump/2D_jump
+50284
+Successfully changed project path to: D:/uuh/Unity_2D_jump/2D_jump
+D:/uuh/Unity_2D_jump/2D_jump
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 137.58 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 108.42 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2021.1.23f1 (b50729e604a9)
-[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.1.23f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/chenmingming/Desktop/unity/Unity_2D_jump/2D_jump/Assets
-GfxDevice: creating device client; threaded=0; jobified=0
-2021-11-05 00:23:39.129 Unity[3913:170100] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 640 (low power)
-2021-11-05 00:23:39.129 Unity[3913:170100] Metal devices available: 1
-2021-11-05 00:23:39.129 Unity[3913:170100] 0: Intel(R) Iris(TM) Plus Graphics 640 (low power)
-2021-11-05 00:23:39.130 Unity[3913:170100] Using device Intel(R) Iris(TM) Plus Graphics 640 (low power)
-Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics 640
+Initialize engine version: 2020.3.18f1 (a7d1c678663c)
+[Subsystems] Discovering subsystems at path D:/untiy/2020.3.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/uuh/Unity_2D_jump/2D_jump/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Plus Graphics 645 (ID=0x3ea6)
+    Vendor:   
+    VRAM:     4019 MB
+    Driver:   27.20.100.8682
 Initialize mono
-Mono path[0] = '/Applications/Unity/Hub/Editor/2021.1.23f1/Unity.app/Contents/Managed'
-Mono path[1] = '/Applications/Unity/Hub/Editor/2021.1.23f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = '/Applications/Unity/Hub/Editor/2021.1.23f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56913
+Mono path[0] = 'D:/untiy/2020.3.18f1/Editor/Data/Managed'
+Mono path[1] = 'D:/untiy/2020.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/untiy/2020.3.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56344
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: /Applications/Unity/Hub/Editor/2021.1.23f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: /Applications/Unity/Hub/Editor/2021.1.23f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.005464 seconds.
-Native extension for OSXStandalone target not found
+Register platform support module: D:/untiy/2020.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/untiy/2020.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001371 seconds.
+Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 127.41 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 112.50 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  5.699 seconds
+- Completed reload, in  1.549 seconds
 Domain Reload Profiling:
-	ReloadAssembly (5699ms)
-		BeginReloadAssembly (73ms)
+	ReloadAssembly (1549ms)
+		BeginReloadAssembly (50ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (705ms)
-			LoadAssemblies (76ms)
+		EndReloadAssembly (500ms)
+			LoadAssemblies (49ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (281ms)
+			SetupTypeCache (155ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (317ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (240ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (127ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (133ms)
-				ProcessInitializeOnLoadMethodAttributes (46ms)
+				RefreshPlugins (113ms)
+				BeforeProcessingInitializeOnLoad (9ms)
+				ProcessInitializeOnLoadAttributes (84ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.010787 seconds.
+Registered in 0.004813 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/chenmingming/Desktop/unity/Unity_2D_jump/2D_jump/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/chenmingming/Desktop/unity/Unity_2D_jump/2D_jump/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
+Symbol file LoadedFromMemory doesn't match image D:\uuh\Unity_2D_jump\2D_jump\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\uuh\Unity_2D_jump\2D_jump\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 144.37 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.88 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.880 seconds
+- Completed reload, in  1.382 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1881ms)
-		BeginReloadAssembly (224ms)
+	ReloadAssembly (1383ms)
+		BeginReloadAssembly (145ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (43ms)
-		EndReloadAssembly (1577ms)
-			LoadAssemblies (200ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (1181ms)
+			LoadAssemblies (261ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (544ms)
+			SetupTypeCache (391ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (82ms)
-			SetupLoadedEditorAssemblies (619ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (362ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (144ms)
-				BeforeProcessingInitializeOnLoad (119ms)
-				ProcessInitializeOnLoadAttributes (327ms)
-				ProcessInitializeOnLoadMethodAttributes (20ms)
-				AfterProcessingInitializeOnLoad (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (94ms)
+				ProcessInitializeOnLoadAttributes (247ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launching external process: /Applications/Unity/Hub/Editor/2021.1.23f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.16 seconds
+Refreshing native plugins compatible for Editor in 0.92 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3676 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 254.0 MB.
-System memory in use after: 254.2 MB.
+Unloading 3668 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 134.5 MB.
+System memory in use after: 134.7 MB.
 
-Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 4128.
-Total: 6.503283 ms (FindLiveObjects: 0.664939 ms CreateObjectMapping: 0.537683 ms MarkObjects: 5.195625 ms  DeleteObjects: 0.103589 ms)
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 4100.
+Total: 3.924900 ms (FindLiveObjects: 0.403000 ms CreateObjectMapping: 0.144300 ms MarkObjects: 3.292200 ms  DeleteObjects: 0.084300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/場景素材/Warped City 2/Music
+  path: Assets/圖片/logo-B.png
+  artifactKey: Guid(4242a619aa89347e7b36075a1bbfca69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/logo-B.png using Guid(4242a619aa89347e7b36075a1bbfca69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e843b707492117d3da0de5d441b8d16') in 0.379896 seconds 
+  Import took 0.423843 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/材質球/開始畫面背景.mat
+  artifactKey: Guid(40bbb0ba04053433cb624949f8d984d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/材質球/開始畫面背景.mat using Guid(40bbb0ba04053433cb624949f8d984d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '215b596027fb13660a8418582b4fae6a') in 0.197630 seconds 
+  Import took 0.220960 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/圖片/logo-w.png
+  artifactKey: Guid(deba5cba23b964793b4f3beb6a2fba9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/logo-w.png using Guid(deba5cba23b964793b4f3beb6a2fba9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '144782b164026c615323d83e21a383aa') in 0.069985 seconds 
+  Import took 0.084906 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.225374 seconds.
+  path: Assets/場景素材/場景及跳板
+  artifactKey: Guid(e7e40e7ba27134f1aa7e3dc8c8cfdd70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/場景及跳板 using Guid(e7e40e7ba27134f1aa7e3dc8c8cfdd70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b96a3f938e980c8488e91fb47d0e7a9') in 0.009577 seconds 
+  Import took 0.123048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.649155 seconds.
+  path: Assets/場景素材/場景及跳板/所有物件
+  artifactKey: Guid(c40024ffd35744d66bba1915608505b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/場景及跳板/所有物件 using Guid(c40024ffd35744d66bba1915608505b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36823f1a65453f1130f50274febea70d') in 0.008601 seconds 
+  Import took 0.026085 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.942451 seconds.
+  path: Assets/場景素材/場景及跳板/所有物件/Sprites
+  artifactKey: Guid(abebc30f07f804406ae11d8f3e8e9014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/場景及跳板/所有物件/Sprites using Guid(abebc30f07f804406ae11d8f3e8e9014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7abd7be0df7098414129be5524c15a3') in 0.009552 seconds 
+  Import took 0.019083 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.217983 seconds.
+  path: Assets/場景素材/場景及跳板/所有物件/1.跳板在這裡
+  artifactKey: Guid(ea1eaa9d137874efe96771a87b84ce97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/場景及跳板/所有物件/1.跳板在這裡 using Guid(ea1eaa9d137874efe96771a87b84ce97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f01c9389bde0d1f7ab2552fffb0e041') in 0.010553 seconds 
+  Import took 0.020887 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.058602 seconds.
+  path: Assets/場景素材/場景及跳板/所有物件/1.跳板在這裡/跳板.png
+  artifactKey: Guid(375c6f765985c4a539f757c9c8b5cfec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/場景及跳板/所有物件/1.跳板在這裡/跳板.png using Guid(375c6f765985c4a539f757c9c8b5cfec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9254589b35ed560e488ee82f9a6116a5') in 0.186586 seconds 
+  Import took 0.194389 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003185 seconds.
+  path: Assets/場景素材/場景及跳板/所有物件/1.跳板在這裡/跳板.png
+  artifactKey: Guid(375c6f765985c4a539f757c9c8b5cfec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/場景及跳板/所有物件/1.跳板在這裡/跳板.png using Guid(375c6f765985c4a539f757c9c8b5cfec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9254589b35ed560e488ee82f9a6116a5') in 0.046249 seconds 
+  Import took 0.055262 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.533746 seconds.
+  path: Assets/場景素材/場景及跳板/所有物件/1.跳板在這裡/一堆招牌
+  artifactKey: Guid(6cb63b15237dd4fc18d913c875d282e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/場景及跳板/所有物件/1.跳板在這裡/一堆招牌 using Guid(6cb63b15237dd4fc18d913c875d282e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94ea511b465a4f7a6a6adb11d848a197') in 0.008596 seconds 
+  Import took 0.017831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.443964 seconds.
+  path: Assets/場景素材/場景及跳板/Prefabs
+  artifactKey: Guid(7b051beae36724c6284c3004d076fb0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/場景及跳板/Prefabs using Guid(7b051beae36724c6284c3004d076fb0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1dbff0218bc4511889cc7173da5adca') in 0.008639 seconds 
+  Import took 0.018664 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.863128 seconds.
+  path: Assets/場景素材/場景及跳板/Prefabs/Misc Prefabs
+  artifactKey: Guid(9844921e385f1478fa2e0981a271f7c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/場景及跳板/Prefabs/Misc Prefabs using Guid(9844921e385f1478fa2e0981a271f7c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4dbf9afddbc34aee890f8dd4dcfc8b1') in 0.013988 seconds 
+  Import took 0.022545 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.063092 seconds.
+  path: Assets/場景素材/場景及跳板/Prefabs/Misc Prefabs/Enemy Shoot.prefab
+  artifactKey: Guid(1d4038a6399a9474186021bc95141960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/場景及跳板/Prefabs/Misc Prefabs/Enemy Shoot.prefab using Guid(1d4038a6399a9474186021bc95141960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b89ba4bb384dc6384390d3d93b42e1c') in 0.334882 seconds 
+  Import took 0.342427 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/場景素材/場景及跳板/Prefabs/Misc Prefabs/Explosion.prefab
+  artifactKey: Guid(e360672ae39314ff1a77fee796e40aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/場景及跳板/Prefabs/Misc Prefabs/Explosion.prefab using Guid(e360672ae39314ff1a77fee796e40aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87e3496f3380abcb439107102ce6c8c0') in 0.081932 seconds 
+  Import took 0.088982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/場景素材/場景及跳板/Prefabs/Misc Prefabs/Player Shoot.prefab
+  artifactKey: Guid(6874799162c5e43ad8b8d2f5d917f42f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/場景及跳板/Prefabs/Misc Prefabs/Player Shoot.prefab using Guid(6874799162c5e43ad8b8d2f5d917f42f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0529f810f41fafa1b96ca2d00c19ce27') in 0.066317 seconds 
+  Import took 0.072978 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.929581 seconds.
+  path: Assets/場景素材/場景及跳板/Music
   artifactKey: Guid(6956891d1952145e79502a39702d7742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Music using Guid(6956891d1952145e79502a39702d7742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f575345aea03fada7ae8587689f8774f') in 0.005774 seconds 
+Start importing Assets/場景素材/場景及跳板/Music using Guid(6956891d1952145e79502a39702d7742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a81277d3ffd97b1e850f3f25c8438d13') in 0.010970 seconds 
+  Import took 0.021060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.055312 seconds.
+  path: Assets/場景素材/場景及跳板/Music/cyber city 2-b.wav
+  artifactKey: Guid(70a7f84c0ae334453a44a60563463702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/場景及跳板/Music/cyber city 2-b.wav using Guid(70a7f84c0ae334453a44a60563463702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65132d126ac1a35eb5a362b5be8e7433') in 0.177635 seconds 
+  Import took 0.194682 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/場景素材/場景及跳板/Music/cyberpunk city 2.wav
+  artifactKey: Guid(ec63dce1e06684e51969fda535cbc967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/場景及跳板/Music/cyberpunk city 2.wav using Guid(ec63dce1e06684e51969fda535cbc967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de04527cc1c593a53725a05e9ee8f120') in 0.064200 seconds 
+  Import took 0.071558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.644462 seconds.
+  path: Assets/場景素材/和尚在這裡
+  artifactKey: Guid(239b9f8f3e16f4ccf900cfd8763379d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/和尚在這裡 using Guid(239b9f8f3e16f4ccf900cfd8763379d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51239e9d6e4ff5a54af97b1437a4bc33') in 0.009089 seconds 
+  Import took 0.112816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.744230 seconds.
+  path: Assets/場景素材/和尚在這裡/Environment
+  artifactKey: Guid(bf678482ad0bb4e2d9fc66d3ba3b925d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/和尚在這裡/Environment using Guid(bf678482ad0bb4e2d9fc66d3ba3b925d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9ca69f4e7bbcd56b30328d307f93070') in 0.009171 seconds 
+  Import took 0.038027 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036018 seconds.
+  path: Assets/場景素材/和尚在這裡/Environment/bg-1.png
+  artifactKey: Guid(4088e222fbea240ceb318507c580aa2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/和尚在這裡/Environment/bg-1.png using Guid(4088e222fbea240ceb318507c580aa2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b69ed2055ab634720fb964f5c5dd5361') in 0.070527 seconds 
+  Import took 0.076971 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/場景素材/和尚在這裡/Environment/column.png
+  artifactKey: Guid(41d8855c301eb4f37bddd0d3dfac611b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/和尚在這裡/Environment/column.png using Guid(41d8855c301eb4f37bddd0d3dfac611b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ed2ce9b801ebbabd8e9d95d35a7e059') in 0.058632 seconds 
+  Import took 0.078056 seconds .
+
 ========================================================================
 Received Import Request.
   Time since last request: 0.000307 seconds.
-  path: Assets/場景素材/Warped City 2
-  artifactKey: Guid(e7e40e7ba27134f1aa7e3dc8c8cfdd70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2 using Guid(e7e40e7ba27134f1aa7e3dc8c8cfdd70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60ffdb0a0de0e28f0a485cbaa83d1973') in 0.001649 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 21.373994 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Environment/props/banner-b
-  artifactKey: Guid(457e34d9884ac4143931fd979fa8616a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Environment/props/banner-b using Guid(457e34d9884ac4143931fd979fa8616a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90ff21fc2ab9af05fe32645fcf462521') in 0.008438 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.383034 seconds.
-  path: Assets/場景素材/Warped City 2/Scenes
-  artifactKey: Guid(c929e64195746476e8d56f4689ada18d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Scenes using Guid(c929e64195746476e8d56f4689ada18d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e728e8f995765d84b4d6c35d6fbe80c4') in 0.008044 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.940085 seconds.
-  path: Assets/場景素材/Warped City 2/Prefabs/Misc Prefabs
-  artifactKey: Guid(9844921e385f1478fa2e0981a271f7c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Prefabs/Misc Prefabs using Guid(9844921e385f1478fa2e0981a271f7c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd059b1f09a63d87d0a7ddf5a5538735') in 0.008059 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.352537 seconds.
-  path: Assets/場景素材/Warped City 2/Prefabs/Characters Prefabs
-  artifactKey: Guid(a8509563c6eca43c095bac766d7d5aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Prefabs/Characters Prefabs using Guid(a8509563c6eca43c095bac766d7d5aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15939435580e72a210c67b64eed375be') in 0.004044 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.361330 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Sprites
-  artifactKey: Guid(abebc30f07f804406ae11d8f3e8e9014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Sprites using Guid(abebc30f07f804406ae11d8f3e8e9014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed6969ff6f70e4985aecc033d4ba9651') in 0.007480 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.574290 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Sprites/player-shoot
-  artifactKey: Guid(f784d857e2b2e45bdb67624509909f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Sprites/player-shoot using Guid(f784d857e2b2e45bdb67624509909f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b369e25c3d9e90ce287a18775e190332') in 0.008139 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.127649 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Sprites/Player
-  artifactKey: Guid(597acfe9b919b469a8d15f7f581d210b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Sprites/Player using Guid(597acfe9b919b469a8d15f7f581d210b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '494f98981edf57ab267383c7e7e370ff') in 0.008329 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.089462 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Sprites/Player/Run
-  artifactKey: Guid(248eb420835864ab98789b10351addea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Sprites/Player/Run using Guid(248eb420835864ab98789b10351addea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '664fdbdbedeea2d5eddcc2eb46984b86') in 0.007867 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.066335 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Sprites/Player/Run/Run1.png
-  artifactKey: Guid(cd2d1a2d0f8e641b4a07dade16953fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Sprites/Player/Run/Run1.png using Guid(cd2d1a2d0f8e641b4a07dade16953fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17da4e9b93777a93d2b47760d7d12aae') in 0.451905 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000279 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Sprites/Player/Run/Run6.png
-  artifactKey: Guid(b3cb9a833a3924bf0bdbab1c55337d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Sprites/Player/Run/Run6.png using Guid(b3cb9a833a3924bf0bdbab1c55337d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b34b499079bd7a32b97448ebd03be77') in 0.021544 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000256 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Sprites/Player/Run/Run8.png
-  artifactKey: Guid(cf27c901b6cc34c7b9d6a37b483b786f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Sprites/Player/Run/Run8.png using Guid(cf27c901b6cc34c7b9d6a37b483b786f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '037e046955901a8437db441a448153d2') in 0.023725 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000256 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Sprites/Player/Run/Run5.png
-  artifactKey: Guid(b08d6a95972414c74b2c427fc116125f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Sprites/Player/Run/Run5.png using Guid(b08d6a95972414c74b2c427fc116125f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bec008e3d18b0804940133717a16d24c') in 0.014948 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000278 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Sprites/Player/Run/Run7.png
-  artifactKey: Guid(3b8d3d06a2e934a4dabddcaeb2c2678e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Sprites/Player/Run/Run7.png using Guid(3b8d3d06a2e934a4dabddcaeb2c2678e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b894c708d5e0a22ee1c0fc96e98280af') in 0.020669 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000213 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Sprites/Player/Run/Run2.png
-  artifactKey: Guid(7e77248c5401c453da8bb07454320061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Sprites/Player/Run/Run2.png using Guid(7e77248c5401c453da8bb07454320061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3aeb0ba4c204f44bd2ad073f8863c3d') in 0.019560 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000390 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Sprites/Player/Run/Run3.png
-  artifactKey: Guid(6e7728f9181aa43298187d576a94e624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Sprites/Player/Run/Run3.png using Guid(6e7728f9181aa43298187d576a94e624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4157f6977a8daf4a6819343331509e0') in 0.013390 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Sprites/Player/Run/Run4.png
-  artifactKey: Guid(59650a52f48f7484ab17c65af31182d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Sprites/Player/Run/Run4.png using Guid(59650a52f48f7484ab17c65af31182d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b608131e8b99115e7aaed27b653ec81') in 0.016726 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 776.452295 seconds.
-  path: Assets/Free Meat and Skin Icons/PNG
-  artifactKey: Guid(2a6bc1d5f41b60a4795b6227ebb2df27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free Meat and Skin Icons/PNG using Guid(2a6bc1d5f41b60a4795b6227ebb2df27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32c38366a3da714669e2abaf8263169a') in 0.003789 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.524531 seconds.
-  path: Assets/Free Meat and Skin Icons/PNG/bg.png
-  artifactKey: Guid(fa566529e08f04b4bb05ae55a3af6643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free Meat and Skin Icons/PNG/bg.png using Guid(fa566529e08f04b4bb05ae55a3af6643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '637f1ea5413845b2e862531fbf05060e') in 0.036509 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.532141 seconds.
-  path: Assets/Free Meat and Skin Icons/PNG/shadow
-  artifactKey: Guid(ea56ec2340b11644ebf943e69d9b9090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free Meat and Skin Icons/PNG/shadow using Guid(ea56ec2340b11644ebf943e69d9b9090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9ffea63d37cf4c480563c1ec89f2568') in 0.007669 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.059691 seconds.
-  path: Assets/Free Meat and Skin Icons/PNG/shadow/1.png
-  artifactKey: Guid(326b89e55a231664c96c5bcd0ea75850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free Meat and Skin Icons/PNG/shadow/1.png using Guid(326b89e55a231664c96c5bcd0ea75850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a7cb7b822dfbe8367d6f533113d8e6c') in 0.010472 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/Free Meat and Skin Icons/PNG/shadow/6.png
-  artifactKey: Guid(a73eb21dd1f730843be2432740fac9ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free Meat and Skin Icons/PNG/shadow/6.png using Guid(a73eb21dd1f730843be2432740fac9ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f02641a183a11dcec839e852138a109f') in 0.019198 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/Free Meat and Skin Icons/PNG/shadow/5.png
-  artifactKey: Guid(04a05795e7233024993dc94556b66478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free Meat and Skin Icons/PNG/shadow/5.png using Guid(04a05795e7233024993dc94556b66478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83525d0ee2f067ec0568b348b8f3db44') in 0.026144 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/Free Meat and Skin Icons/PNG/shadow/4.png
-  artifactKey: Guid(134005e0d0d848448812d8c08b82f87c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free Meat and Skin Icons/PNG/shadow/4.png using Guid(134005e0d0d848448812d8c08b82f87c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f09cbf4de75cf16ef89990b934c93a42') in 0.021862 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/Free Meat and Skin Icons/PNG/shadow/3.png
-  artifactKey: Guid(4f19b14f8fcfdb747a376629c0310705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free Meat and Skin Icons/PNG/shadow/3.png using Guid(4f19b14f8fcfdb747a376629c0310705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74cdf08095b1a6eddf2ea2ee266dedb4') in 0.021140 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000350 seconds.
-  path: Assets/Free Meat and Skin Icons/PNG/shadow/7.png
-  artifactKey: Guid(27f2a816a90dc144ab1e03429799d4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free Meat and Skin Icons/PNG/shadow/7.png using Guid(27f2a816a90dc144ab1e03429799d4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d0a686fb01f8e8efb2fa7b15adf0030') in 0.021303 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000351 seconds.
-  path: Assets/Free Meat and Skin Icons/PNG/shadow/2.png
-  artifactKey: Guid(53b4a89c03947ef41adf1f777c991d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free Meat and Skin Icons/PNG/shadow/2.png using Guid(53b4a89c03947ef41adf1f777c991d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48c55962b8d1e3d3a341a6cf1e48e70e') in 0.026574 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6636.971017 seconds.
-  path: Assets/場景素材/Free Meat and Skin Icons/PNG/without_shadow/1.png
-  artifactKey: Guid(9b43f1b8feb6d7645ab1355ef59de7a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Free Meat and Skin Icons/PNG/without_shadow/1.png using Guid(9b43f1b8feb6d7645ab1355ef59de7a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8b744dfbd14cdfa31885c40f2d62d75') in 0.045952 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000280 seconds.
-  path: Assets/場景素材/Free Meat and Skin Icons/PNG/without_shadow/6.png
-  artifactKey: Guid(e66aacdd63f97e34c998c6a6e332fee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Free Meat and Skin Icons/PNG/without_shadow/6.png using Guid(e66aacdd63f97e34c998c6a6e332fee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '289c3b28d106de148406bc37fcdad3d3') in 0.027049 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.002001 seconds.
-  path: Assets/場景素材/Free Meat and Skin Icons/PNG/without_shadow/5.png
-  artifactKey: Guid(4b323755efcf39046a313df10ef721da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Free Meat and Skin Icons/PNG/without_shadow/5.png using Guid(4b323755efcf39046a313df10ef721da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1a1f2061f0d36d8868cda7da789b251') in 0.030942 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/場景素材/Free Meat and Skin Icons/PNG/without_shadow/2.png
-  artifactKey: Guid(d4398e5331e0aea429521f4c4dca6129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Free Meat and Skin Icons/PNG/without_shadow/2.png using Guid(d4398e5331e0aea429521f4c4dca6129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cec28cc354c3366c6c906684612b998') in 0.029468 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000353 seconds.
-  path: Assets/場景素材/Free Meat and Skin Icons/PNG/without_shadow/7.png
-  artifactKey: Guid(80d51005f2b08ce40b01c3bd83c94f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Free Meat and Skin Icons/PNG/without_shadow/7.png using Guid(80d51005f2b08ce40b01c3bd83c94f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e3ee2cab6eba76dbf2e08a31911a490') in 0.021186 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000463 seconds.
-  path: Assets/場景素材/Free Meat and Skin Icons/PNG/without_shadow/4.png
-  artifactKey: Guid(2bc1cf98b3025b547a5de49846fa9edd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Free Meat and Skin Icons/PNG/without_shadow/4.png using Guid(2bc1cf98b3025b547a5de49846fa9edd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efa8695d814033137ff40496bfb36cb1') in 0.015530 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/場景素材/Free Meat and Skin Icons/PNG/without_shadow/3.png
-  artifactKey: Guid(9fe6df558123017499c3f930a331fba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Free Meat and Skin Icons/PNG/without_shadow/3.png using Guid(9fe6df558123017499c3f930a331fba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da41997606ffc2ffe9ebc1cf25d34c35') in 0.023246 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 742.035688 seconds.
-  path: Assets/場景素材/GothicVania Church/Environment/bg-1.png
-  artifactKey: Guid(4088e222fbea240ceb318507c580aa2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/GothicVania Church/Environment/bg-1.png using Guid(4088e222fbea240ceb318507c580aa2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17e78fd6db7c82fd9782389d433169d9') in 0.044897 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/場景素材/GothicVania Church/Environment/column.png
-  artifactKey: Guid(41d8855c301eb4f37bddd0d3dfac611b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/GothicVania Church/Environment/column.png using Guid(41d8855c301eb4f37bddd0d3dfac611b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14275cc31fc1ccb403ae7b4333804ddf') in 0.033199 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/場景素材/GothicVania Church/Environment/tileset.png
+  path: Assets/場景素材/和尚在這裡/Environment/tileset.png
   artifactKey: Guid(aaa6ed922388941e8a1e8c9a7cb2a712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/GothicVania Church/Environment/tileset.png using Guid(aaa6ed922388941e8a1e8c9a7cb2a712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '400e095a32987a5ccf41b7b8eb73ec6b') in 0.028433 seconds 
+Start importing Assets/場景素材/和尚在這裡/Environment/tileset.png using Guid(aaa6ed922388941e8a1e8c9a7cb2a712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94cffc7576a8899564ff93902e9da00d') in 0.067348 seconds 
+  Import took 0.072882 seconds .
+
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000436 seconds.
-  path: Assets/場景素材/GothicVania Church/Environment/bg-2.png
+  Time since last request: 0.000312 seconds.
+  path: Assets/場景素材/和尚在這裡/Environment/bg-2.png
   artifactKey: Guid(4d106ce971166481faa32de0ba5145c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/GothicVania Church/Environment/bg-2.png using Guid(4d106ce971166481faa32de0ba5145c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adc1e780f87f68dab788845916357d84') in 0.025333 seconds 
+Start importing Assets/場景素材/和尚在這裡/Environment/bg-2.png using Guid(4d106ce971166481faa32de0ba5145c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d7d99ef057489e3efdbb83b47dd2748') in 0.089567 seconds 
+  Import took 0.097837 seconds .
+
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001025 seconds.
-  path: Assets/場景素材/GothicVania Church/Environment/bg-3.png
+  Time since last request: 0.000309 seconds.
+  path: Assets/場景素材/和尚在這裡/Environment/bg-3.png
   artifactKey: Guid(167f44201ce9c4632b387d0a0822f7f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/GothicVania Church/Environment/bg-3.png using Guid(167f44201ce9c4632b387d0a0822f7f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '426fcce90cbd5dbd370f9510ad9b009b') in 0.021706 seconds 
+Start importing Assets/場景素材/和尚在這裡/Environment/bg-3.png using Guid(167f44201ce9c4632b387d0a0822f7f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46cdedd369f9b9557b633e426474277e') in 0.062602 seconds 
+  Import took 0.069040 seconds .
+
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/場景素材/GothicVania Church/Environment/bg-5.png
+  Time since last request: 0.000370 seconds.
+  path: Assets/場景素材/和尚在這裡/Environment/bg-5.png
   artifactKey: Guid(f8298875ddc0d4fa4bb8d9a60b80fa3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/GothicVania Church/Environment/bg-5.png using Guid(f8298875ddc0d4fa4bb8d9a60b80fa3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8834c40f79ca0726acc2777e4ae45def') in 0.017445 seconds 
+Start importing Assets/場景素材/和尚在這裡/Environment/bg-5.png using Guid(f8298875ddc0d4fa4bb8d9a60b80fa3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90c682969d5b2b4d65264f679563d0e0') in 0.071134 seconds 
+  Import took 0.093388 seconds .
+
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/場景素材/GothicVania Church/Environment/bg-4.png
+  Time since last request: 0.000307 seconds.
+  path: Assets/場景素材/和尚在這裡/Environment/bg-4.png
   artifactKey: Guid(d8254b0cb964744a0a12cf381c9356e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/GothicVania Church/Environment/bg-4.png using Guid(d8254b0cb964744a0a12cf381c9356e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d7af99d9d153e373de041e431a57b0') in 0.022696 seconds 
+Start importing Assets/場景素材/和尚在這裡/Environment/bg-4.png using Guid(d8254b0cb964744a0a12cf381c9356e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddab0822b30421ee8aa072cd20977133') in 0.074226 seconds 
+  Import took 0.080503 seconds .
+
 ========================================================================
 Received Import Request.
-  Time since last request: 30.285932 seconds.
-  path: Assets/場景素材/GothicVania Church/Sprites/Misc/Fireball/fireball1.png
-  artifactKey: Guid(bead47d786e844adba7899d02e8851eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/GothicVania Church/Sprites/Misc/Fireball/fireball1.png using Guid(bead47d786e844adba7899d02e8851eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9bc7e134221d7c1301c20c15ae911d5') in 0.013898 seconds 
+  Time since last request: 7.220502 seconds.
+  path: Assets/場景素材/場景及跳板/所有物件/1.跳板在這裡/背景
+  artifactKey: Guid(4c85e72a81bcd467191a0408fb1fc0e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/場景及跳板/所有物件/1.跳板在這裡/背景 using Guid(4c85e72a81bcd467191a0408fb1fc0e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8b04144e47b2beb90da9be94ffac4fd') in 0.018641 seconds 
+  Import took 0.049819 seconds .
+
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000349 seconds.
-  path: Assets/場景素材/GothicVania Church/Sprites/Misc/Fireball/fireball3.png
-  artifactKey: Guid(1cbab147f3d6a4298afd5dc425552309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/GothicVania Church/Sprites/Misc/Fireball/fireball3.png using Guid(1cbab147f3d6a4298afd5dc425552309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b36f8056a13b41a119677f03076ff66') in 0.023560 seconds 
+  Time since last request: 0.031372 seconds.
+  path: Assets/場景素材/場景及跳板/所有物件/1.跳板在這裡/背景/back.png
+  artifactKey: Guid(27967ee1f727640d3a07da062fa83401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/場景及跳板/所有物件/1.跳板在這裡/背景/back.png using Guid(27967ee1f727640d3a07da062fa83401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51cec36de395baf6bef46fe6b15d3cca') in 0.077850 seconds 
+  Import took 0.084296 seconds .
+
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000254 seconds.
-  path: Assets/場景素材/GothicVania Church/Sprites/Misc/Fireball/fireball2.png
-  artifactKey: Guid(764d28acbc3994af2873c2c42bdab986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/GothicVania Church/Sprites/Misc/Fireball/fireball2.png using Guid(764d28acbc3994af2873c2c42bdab986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0d32ddf5864dca07c712c7d904db89b') in 0.028617 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.233938 seconds.
-  path: Assets/場景素材/GothicVania Church/Sprites/Misc/Enemy-Death/Enemy-Death-1.png
-  artifactKey: Guid(f81c1c89a83ed49ba9dc43e5434a3531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/GothicVania Church/Sprites/Misc/Enemy-Death/Enemy-Death-1.png using Guid(f81c1c89a83ed49ba9dc43e5434a3531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2563bb22eca9ecb690c21a66f2a8845') in 0.012813 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000313 seconds.
-  path: Assets/場景素材/GothicVania Church/Sprites/Misc/Enemy-Death/Enemy-Death-4.png
-  artifactKey: Guid(30e4f85892c46449cbd4ea836c389c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/GothicVania Church/Sprites/Misc/Enemy-Death/Enemy-Death-4.png using Guid(30e4f85892c46449cbd4ea836c389c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60909875ff8b3f98f417fa17d9ec8aa1') in 0.026977 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000367 seconds.
-  path: Assets/場景素材/GothicVania Church/Sprites/Misc/Enemy-Death/Enemy-Death-6.png
-  artifactKey: Guid(13f4a1907b0bf431797e44979420ba8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/GothicVania Church/Sprites/Misc/Enemy-Death/Enemy-Death-6.png using Guid(13f4a1907b0bf431797e44979420ba8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3355dd89cb1b6fd33724e3bace0983f0') in 0.026391 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/場景素材/GothicVania Church/Sprites/Misc/Enemy-Death/Enemy-Death-5.png
-  artifactKey: Guid(57845e207a697433b92e3aba240a4b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/GothicVania Church/Sprites/Misc/Enemy-Death/Enemy-Death-5.png using Guid(57845e207a697433b92e3aba240a4b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12fcfe786e7120c3ebdcebfc4758a0c4') in 0.019807 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000298 seconds.
-  path: Assets/場景素材/GothicVania Church/Sprites/Misc/Enemy-Death/Enemy-Death-3.png
-  artifactKey: Guid(2bcb30bfe42a24c16b493bfee67b8ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/GothicVania Church/Sprites/Misc/Enemy-Death/Enemy-Death-3.png using Guid(2bcb30bfe42a24c16b493bfee67b8ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '632bfc253a1658a192e55cd8c46107b2') in 0.015034 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/場景素材/GothicVania Church/Sprites/Misc/Enemy-Death/Enemy-Death-2.png
-  artifactKey: Guid(05693a8fd758747cab019551188b0447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/GothicVania Church/Sprites/Misc/Enemy-Death/Enemy-Death-2.png using Guid(05693a8fd758747cab019551188b0447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb8dbcf8eb024ae5bd6331b7135826a8') in 0.021520 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/場景素材/GothicVania Church/Sprites/Misc/Enemy-Death/Enemy-Death-7.png
-  artifactKey: Guid(e4dfb8af17a354fd4a5278f311c19e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/GothicVania Church/Sprites/Misc/Enemy-Death/Enemy-Death-7.png using Guid(e4dfb8af17a354fd4a5278f311c19e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9764df40eacd25d69ffe4fc8f94d4c99') in 0.013984 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.126464 seconds.
-  path: Assets/場景素材/GothicVania Church/Sprites/Enemies/Wizard-Idle/wizard-idle-1.png
-  artifactKey: Guid(0c95faed3aa5a43d3b19f112f0843c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/GothicVania Church/Sprites/Enemies/Wizard-Idle/wizard-idle-1.png using Guid(0c95faed3aa5a43d3b19f112f0843c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7f178855fbb5b66db915172908b8d6d') in 0.014026 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/場景素材/GothicVania Church/Sprites/Enemies/Wizard-Idle/wizard-idle-2.png
-  artifactKey: Guid(c387fe7fa73be4111aad07557b418792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/GothicVania Church/Sprites/Enemies/Wizard-Idle/wizard-idle-2.png using Guid(c387fe7fa73be4111aad07557b418792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74cde2a31d54275ac2685b264ed8d21e') in 0.019274 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/場景素材/GothicVania Church/Sprites/Enemies/Wizard-Idle/wizard-idle-3.png
-  artifactKey: Guid(f7937dea06d104f4c9250daee53b1812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/GothicVania Church/Sprites/Enemies/Wizard-Idle/wizard-idle-3.png using Guid(f7937dea06d104f4c9250daee53b1812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c300a1d0fd4eb9072adab6127d8bc9c') in 0.023733 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/場景素材/GothicVania Church/Sprites/Enemies/Wizard-Idle/wizard-idle-4.png
-  artifactKey: Guid(68bcece766a354e5485d8c78f0517331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/GothicVania Church/Sprites/Enemies/Wizard-Idle/wizard-idle-4.png using Guid(68bcece766a354e5485d8c78f0517331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fddf2a09e651cfc6c9fdb541d37e401') in 0.018498 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/場景素材/GothicVania Church/Sprites/Enemies/Wizard-Idle/wizard-idle-5.png
-  artifactKey: Guid(b3e38fb5b83a24c4b93049ebc52a07a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/GothicVania Church/Sprites/Enemies/Wizard-Idle/wizard-idle-5.png using Guid(b3e38fb5b83a24c4b93049ebc52a07a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd284d6d5b71e236d2f5bd083208b0f21') in 0.016395 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.761701 seconds.
-  path: Assets/場景素材/GothicVania Church/Sprites/Enemies/Wizard-Fire/fire1.png
-  artifactKey: Guid(597896b5bd1ae45e8923818e25d67a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/GothicVania Church/Sprites/Enemies/Wizard-Fire/fire1.png using Guid(597896b5bd1ae45e8923818e25d67a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3ec76b2f58a6b62b92571f3cb945d92') in 0.016002 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000254 seconds.
-  path: Assets/場景素材/GothicVania Church/Sprites/Enemies/Wizard-Fire/fire5.png
-  artifactKey: Guid(1dd4ddef074614c348aac963e1e72bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/GothicVania Church/Sprites/Enemies/Wizard-Fire/fire5.png using Guid(1dd4ddef074614c348aac963e1e72bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5282f1ee3a74ce0b48f2ceb4642c248a') in 0.027742 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/場景素材/GothicVania Church/Sprites/Enemies/Wizard-Fire/fire2.png
-  artifactKey: Guid(b49ec68784d154909a60e813b802b30b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/GothicVania Church/Sprites/Enemies/Wizard-Fire/fire2.png using Guid(b49ec68784d154909a60e813b802b30b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '347b68959172d888a9df3af5bdac200d') in 0.019891 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/場景素材/GothicVania Church/Sprites/Enemies/Wizard-Fire/fire4.png
-  artifactKey: Guid(2c329b811a83e46d8928f705262180e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/GothicVania Church/Sprites/Enemies/Wizard-Fire/fire4.png using Guid(2c329b811a83e46d8928f705262180e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc5be6d5bd7ac8461331a12fcad27ccf') in 0.021775 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000690 seconds.
-  path: Assets/場景素材/GothicVania Church/Sprites/Enemies/Wizard-Fire/fire3.png
-  artifactKey: Guid(a361d0bfbed22487ca5e27df3288e525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/GothicVania Church/Sprites/Enemies/Wizard-Fire/fire3.png using Guid(a361d0bfbed22487ca5e27df3288e525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7c045020f2e68f3565357f9a2435267') in 0.013445 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000256 seconds.
-  path: Assets/場景素材/GothicVania Church/Sprites/Enemies/Wizard-Fire/fire7.png
-  artifactKey: Guid(c22e5288bcb4446e9a44e3d50cf014c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/GothicVania Church/Sprites/Enemies/Wizard-Fire/fire7.png using Guid(c22e5288bcb4446e9a44e3d50cf014c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0613e42feea19814b44b11ba27c4fe05') in 0.022193 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/場景素材/GothicVania Church/Sprites/Enemies/Wizard-Fire/fire6.png
-  artifactKey: Guid(47e952a4b77a047849c7150b9fdbca72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/GothicVania Church/Sprites/Enemies/Wizard-Fire/fire6.png using Guid(47e952a4b77a047849c7150b9fdbca72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcdca4185e42627aaa8905995d4e3216') in 0.012569 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.364748 seconds.
-  path: Assets/場景素材/GothicVania Church/Sprites/Enemies/Burning-Ghoul/burning-ghoul1.png
-  artifactKey: Guid(0868bf4c36fa14dacbef0b4619f706e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/GothicVania Church/Sprites/Enemies/Burning-Ghoul/burning-ghoul1.png using Guid(0868bf4c36fa14dacbef0b4619f706e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea2bc10dd25ddf472def728112b059b2') in 0.013525 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000250 seconds.
-  path: Assets/場景素材/GothicVania Church/Sprites/Enemies/Burning-Ghoul/burning-ghoul4.png
-  artifactKey: Guid(d51a80d9315ca4ee9872168f3eec4877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/GothicVania Church/Sprites/Enemies/Burning-Ghoul/burning-ghoul4.png using Guid(d51a80d9315ca4ee9872168f3eec4877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33e695b7b73d51ac302ea40be83403eb') in 0.025702 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/場景素材/GothicVania Church/Sprites/Enemies/Burning-Ghoul/burning-ghoul3.png
-  artifactKey: Guid(b610a4c36c47d408183676f30f03d10d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/GothicVania Church/Sprites/Enemies/Burning-Ghoul/burning-ghoul3.png using Guid(b610a4c36c47d408183676f30f03d10d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c36e1f91c4ca0b1d4ebb23580948ce08') in 0.020215 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000287 seconds.
-  path: Assets/場景素材/GothicVania Church/Sprites/Enemies/Burning-Ghoul/burning-ghoul7.png
-  artifactKey: Guid(32b705df7a1d4464e898d8b96d38c1cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/GothicVania Church/Sprites/Enemies/Burning-Ghoul/burning-ghoul7.png using Guid(32b705df7a1d4464e898d8b96d38c1cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7e1c30781b49ac3e72b07c3f1581783') in 0.018905 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/場景素材/GothicVania Church/Sprites/Enemies/Burning-Ghoul/burning-ghoul2.png
-  artifactKey: Guid(4daa8d9424fb449af8be4f99d6688c8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/GothicVania Church/Sprites/Enemies/Burning-Ghoul/burning-ghoul2.png using Guid(4daa8d9424fb449af8be4f99d6688c8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64cc5bc5d0cdd72c254189e7e4be9cdc') in 0.015949 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/場景素材/GothicVania Church/Sprites/Enemies/Burning-Ghoul/burning-ghoul5.png
-  artifactKey: Guid(a338231a359fb437e8b7793dd9c01504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/GothicVania Church/Sprites/Enemies/Burning-Ghoul/burning-ghoul5.png using Guid(a338231a359fb437e8b7793dd9c01504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32e262157f83d4922161bb5ec20f1ee7') in 0.018472 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/場景素材/GothicVania Church/Sprites/Enemies/Burning-Ghoul/burning-ghoul6.png
-  artifactKey: Guid(8a0436343c7684990b718c9c08fcc084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/GothicVania Church/Sprites/Enemies/Burning-Ghoul/burning-ghoul6.png using Guid(8a0436343c7684990b718c9c08fcc084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da787c9f52880359c2b6cde106c8749b') in 0.020583 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.800516 seconds.
-  path: Assets/場景素材/GothicVania Church/Sprites/Enemies/Angel-Idle/angel1.png
-  artifactKey: Guid(fce97958da54a4c40a77191a048fa121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/GothicVania Church/Sprites/Enemies/Angel-Idle/angel1.png using Guid(fce97958da54a4c40a77191a048fa121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b405a00372d9996c9a457964203fb7c') in 0.014233 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Assets/場景素材/GothicVania Church/Sprites/Enemies/Angel-Idle/angel7.png
-  artifactKey: Guid(3d67c7d35f76d415ab46d308411ae49f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/GothicVania Church/Sprites/Enemies/Angel-Idle/angel7.png using Guid(3d67c7d35f76d415ab46d308411ae49f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fc6faa74509f522083926ebcba1b998') in 0.022030 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/場景素材/GothicVania Church/Sprites/Enemies/Angel-Idle/angel3.png
-  artifactKey: Guid(66378c6e1c74a4e1598202a298a855b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/GothicVania Church/Sprites/Enemies/Angel-Idle/angel3.png using Guid(66378c6e1c74a4e1598202a298a855b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbf31b4b114fb0dedaca43543cf9316d') in 0.020821 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/場景素材/GothicVania Church/Sprites/Enemies/Angel-Idle/angel4.png
-  artifactKey: Guid(3be7eb8ca5bd045a5b1955571b2b357e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/GothicVania Church/Sprites/Enemies/Angel-Idle/angel4.png using Guid(3be7eb8ca5bd045a5b1955571b2b357e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbbe0cc56867243f42875e8320d091cc') in 0.021052 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/場景素材/GothicVania Church/Sprites/Enemies/Angel-Idle/angel6.png
-  artifactKey: Guid(a9334dabab2b04a25af2fd2cee6d9bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/GothicVania Church/Sprites/Enemies/Angel-Idle/angel6.png using Guid(a9334dabab2b04a25af2fd2cee6d9bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62b3d8fc4fd3a71b95a374b7236d87ff') in 0.020188 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/場景素材/GothicVania Church/Sprites/Enemies/Angel-Idle/angel2.png
-  artifactKey: Guid(8227eed74717840efab40c23d2406b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/GothicVania Church/Sprites/Enemies/Angel-Idle/angel2.png using Guid(8227eed74717840efab40c23d2406b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd5c088b16eaf6cca56b2166741be532') in 0.024165 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/場景素材/GothicVania Church/Sprites/Enemies/Angel-Idle/angel5.png
-  artifactKey: Guid(73ed7f313e86e4564afc2c7b474d707f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/GothicVania Church/Sprites/Enemies/Angel-Idle/angel5.png using Guid(73ed7f313e86e4564afc2c7b474d707f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bc09eb131669af2666baa68d00836bb') in 0.021292 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.500259 seconds.
-  path: Assets/場景素材/GothicVania Church/Sprites/Enemies/Angel-Attack/angel-attack-1.png
-  artifactKey: Guid(ab8c6ad7260aa4988b3a67bd49e66038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/GothicVania Church/Sprites/Enemies/Angel-Attack/angel-attack-1.png using Guid(ab8c6ad7260aa4988b3a67bd49e66038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b8e3f4dd25cb7c326d48eb9dffd98c0') in 0.016557 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/場景素材/GothicVania Church/Sprites/Enemies/Angel-Attack/angel-attack-2.png
-  artifactKey: Guid(4694483d57006449b83361c219c4f27a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/GothicVania Church/Sprites/Enemies/Angel-Attack/angel-attack-2.png using Guid(4694483d57006449b83361c219c4f27a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaa96212a199ef3e59afa0b67feedd41') in 0.026445 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/場景素材/GothicVania Church/Sprites/Enemies/Angel-Attack/angel-attack-3.png
-  artifactKey: Guid(cf4d6ac7b070d484fa7b90c92bbcba93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/GothicVania Church/Sprites/Enemies/Angel-Attack/angel-attack-3.png using Guid(cf4d6ac7b070d484fa7b90c92bbcba93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac8bda00329eec1fad8d34c069caf4cb') in 0.021879 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.927215 seconds.
-  path: Assets/場景素材/GothicVania Church/Sprites/Player/crouch-kick1.png
-  artifactKey: Guid(e9b41e0420455410cbc248c9521394e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/GothicVania Church/Sprites/Player/crouch-kick1.png using Guid(e9b41e0420455410cbc248c9521394e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c926cb5437368e7ac3c1ef11fb4fb9d2') in 0.020830 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000284 seconds.
-  path: Assets/場景素材/GothicVania Church/Sprites/Player/crouch1.png
-  artifactKey: Guid(6c12ab0f9f7e045279baad6e5fe695a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/GothicVania Church/Sprites/Player/crouch1.png using Guid(6c12ab0f9f7e045279baad6e5fe695a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad642cb7b8ee133bcd6179d0492f1096') in 0.025121 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/場景素材/GothicVania Church/Sprites/Player/crouch-kick4.png
-  artifactKey: Guid(4118dc37bb9534c589a2424dc034ae21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/GothicVania Church/Sprites/Player/crouch-kick4.png using Guid(4118dc37bb9534c589a2424dc034ae21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ef54f7b1ff29b3f2be4bfff7fdd4fcd') in 0.022400 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000430 seconds.
-  path: Assets/場景素材/GothicVania Church/Sprites/Player/crouch-kick3.png
-  artifactKey: Guid(db31431b232124424a04b9deceaffd2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/GothicVania Church/Sprites/Player/crouch-kick3.png using Guid(db31431b232124424a04b9deceaffd2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68c72b26cd33132e0365d913408f766d') in 0.020167 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/場景素材/GothicVania Church/Sprites/Player/crouch-kick5.png
-  artifactKey: Guid(a2debfac0934c41acaa22fdbb78c2948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/GothicVania Church/Sprites/Player/crouch-kick5.png using Guid(a2debfac0934c41acaa22fdbb78c2948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82579b51fa78fc4a0e2d583655ba89a3') in 0.019113 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000429 seconds.
-  path: Assets/場景素材/GothicVania Church/Sprites/Player/crouch2.png
-  artifactKey: Guid(c335d4c1b5ba44c11b0b64dc7564f844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/GothicVania Church/Sprites/Player/crouch2.png using Guid(c335d4c1b5ba44c11b0b64dc7564f844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ba491e987f24a4f675563490bc9a8cb') in 0.017245 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000266 seconds.
-  path: Assets/場景素材/GothicVania Church/Sprites/Player/crouch-kick2.png
-  artifactKey: Guid(5588a1d29d5ee4a0abd8709439dd6bf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/GothicVania Church/Sprites/Player/crouch-kick2.png using Guid(5588a1d29d5ee4a0abd8709439dd6bf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c181527658ee742f65f166ad391284fb') in 0.017433 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 302.479954 seconds.
-  path: Assets/場景素材/GothicVania Church/Sprites/Player
-  artifactKey: Guid(5ea45a4fb406943cb9d94e5dd3a3a496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/GothicVania Church/Sprites/Player using Guid(5ea45a4fb406943cb9d94e5dd3a3a496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcae3e328fda4d33eb28af01a85b405d') in 0.001731 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.745645 seconds.
-  path: Assets/場景素材/GothicVania Church/Sprites/Misc
-  artifactKey: Guid(af1f99b5cc528444486ad4738658d79d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/GothicVania Church/Sprites/Misc using Guid(af1f99b5cc528444486ad4738658d79d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39e0413ee21e6133fee3553ebcfb6787') in 0.007811 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.765260 seconds.
-  path: Assets/場景素材/GothicVania Church/Sprites/Misc/Enemy-Death
-  artifactKey: Guid(a96c9dd2329cb438d9393051256ff85e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/GothicVania Church/Sprites/Misc/Enemy-Death using Guid(a96c9dd2329cb438d9393051256ff85e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fff115b08736098cf7ec90c8392374a0') in 0.003911 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.856897 seconds.
-  path: Assets/場景素材/GothicVania Church/Sprites/Enemies
-  artifactKey: Guid(629803cf4b66b42d3bcf3b8f930613de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/GothicVania Church/Sprites/Enemies using Guid(629803cf4b66b42d3bcf3b8f930613de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fba66545befef49a56a672b184f564cd') in 0.006801 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.948532 seconds.
-  path: Assets/場景素材/GothicVania Church/Sprites/Enemies/Burning-Ghoul
-  artifactKey: Guid(dbf0453282ab847948d89c0fef976fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/GothicVania Church/Sprites/Enemies/Burning-Ghoul using Guid(dbf0453282ab847948d89c0fef976fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e332c80a7ffcbd22b5de50a18e2db5a') in 0.007681 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 49.694169 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Sprites/egg turret/Shoot
-  artifactKey: Guid(61c3b116e0115430583cf40f20c636af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Sprites/egg turret/Shoot using Guid(61c3b116e0115430583cf40f20c636af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd65c763b3c8d2f0fd8b4326f9d610c9e') in 0.006906 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.693638 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Sprites/egg turret/Shoot/shoot1.png
-  artifactKey: Guid(39663d144db504f4d8cda1176285daee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Sprites/egg turret/Shoot/shoot1.png using Guid(39663d144db504f4d8cda1176285daee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1748351fbf7c31dae6c4403041ef9a1b') in 0.018044 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000273 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Sprites/egg turret/Shoot/shoot4.png
-  artifactKey: Guid(e79cdd2555ee64bca966befac3cd6b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Sprites/egg turret/Shoot/shoot4.png using Guid(e79cdd2555ee64bca966befac3cd6b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfcd530e35220ffa825aeb50aff85465') in 0.034571 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Sprites/egg turret/Shoot/shoot2.png
-  artifactKey: Guid(454c7d1f504ed44d4aa3c0fb176796ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Sprites/egg turret/Shoot/shoot2.png using Guid(454c7d1f504ed44d4aa3c0fb176796ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d3a80e7a22fa6638abc3a8cf76aba8e') in 0.024582 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Sprites/egg turret/Shoot/shoot3.png
-  artifactKey: Guid(810c20858b7b64ebf917defe14f98b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Sprites/egg turret/Shoot/shoot3.png using Guid(810c20858b7b64ebf917defe14f98b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9de434a68eb343c31b6e71c56003d440') in 0.020217 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.458197 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Sprites/egg turret/Idle/idle1.png
-  artifactKey: Guid(2603f22ed196248409a65a2cf5d4c9f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Sprites/egg turret/Idle/idle1.png using Guid(2603f22ed196248409a65a2cf5d4c9f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c0d9aa6b1270cbec22d93185693c000') in 0.016778 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Sprites/egg turret/Idle/idle2.png
-  artifactKey: Guid(361641149f85549e08d827c869ca0fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Sprites/egg turret/Idle/idle2.png using Guid(361641149f85549e08d827c869ca0fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30d2da0d3b3a8b036ed2d55482ba56e5') in 0.019139 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.040323 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Sprites/Player/Shoot/Shoot1.png
-  artifactKey: Guid(152cc58bb95684ab8b9aee30a20b21f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Sprites/Player/Shoot/Shoot1.png using Guid(152cc58bb95684ab8b9aee30a20b21f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40dde5f048014297c156bb0a209dbf20') in 0.014201 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000272 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Sprites/Player/Shoot/Shoot2.png
-  artifactKey: Guid(aab7179b8f8764cb28ac8e94c2623de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Sprites/Player/Shoot/Shoot2.png using Guid(aab7179b8f8764cb28ac8e94c2623de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '051e3bd6d4b32bc9cb9e09333db5f514') in 0.024616 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Sprites/Player/Shoot/Shoot3.png
-  artifactKey: Guid(ea9e4b1060bcb488fb2da3f8c527ae6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Sprites/Player/Shoot/Shoot3.png using Guid(ea9e4b1060bcb488fb2da3f8c527ae6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6672dd7d8e9d0fa649d50470295ae9eb') in 0.027491 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.332876 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Sprites/Player/Jump/Jump1.png
-  artifactKey: Guid(b1612677f4f254f0f8c9ce1ef8489160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Sprites/Player/Jump/Jump1.png using Guid(b1612677f4f254f0f8c9ce1ef8489160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92b2ee2e0fd420bcb2dfe48581ce4858') in 0.015162 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Sprites/Player/Jump/Jump3.png
-  artifactKey: Guid(99349806fc2d3495e9215c3096cc5f60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Sprites/Player/Jump/Jump3.png using Guid(99349806fc2d3495e9215c3096cc5f60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b72edc998a4effb306f5a948076a76c') in 0.024078 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000440 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Sprites/Player/Jump/Jump2.png
-  artifactKey: Guid(0b63a1de23584492081f432a374ca2d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Sprites/Player/Jump/Jump2.png using Guid(0b63a1de23584492081f432a374ca2d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb3cba69aa84f8ea046ab352c08b2cdf') in 0.028218 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Sprites/Player/Jump/Jump4.png
-  artifactKey: Guid(861b073feb8ef42a9b2b2f531dd38aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Sprites/Player/Jump/Jump4.png using Guid(861b073feb8ef42a9b2b2f531dd38aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fc7eda333f5d92935b9f61bbe1c08a3') in 0.021388 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.429724 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Sprites/Player/Idle/Idle1.png
-  artifactKey: Guid(3a557a04c3b114da9adf0f8308d21f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Sprites/Player/Idle/Idle1.png using Guid(3a557a04c3b114da9adf0f8308d21f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70d5c641b8ce65cafc337e6319b04f3f') in 0.011781 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Sprites/Player/Idle/Idle2.png
-  artifactKey: Guid(4bacf5cd020714d4b9554524b0c0fbeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Sprites/Player/Idle/Idle2.png using Guid(4bacf5cd020714d4b9554524b0c0fbeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41c6311d2234aab44ed62a5da4352b0a') in 0.024936 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Sprites/Player/Idle/Idle4.png
-  artifactKey: Guid(00b6283acfa714ac184467b1ae4a5619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Sprites/Player/Idle/Idle4.png using Guid(00b6283acfa714ac184467b1ae4a5619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e173b8e7edee993c24ba6228582a1bb') in 0.022510 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000305 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Sprites/Player/Idle/Idle3.png
-  artifactKey: Guid(d9f932f289f2a4b4099c74dcc4d2706f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Sprites/Player/Idle/Idle3.png using Guid(d9f932f289f2a4b4099c74dcc4d2706f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fbafd3cca01653cb5cd4a419ca9f6ea') in 0.019868 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 46.449499 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Environment/background/middle.png
+  Time since last request: 0.000345 seconds.
+  path: Assets/場景素材/場景及跳板/所有物件/1.跳板在這裡/背景/middle.png
   artifactKey: Guid(186447cd9ce584283af377113c1cade8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Environment/background/middle.png using Guid(186447cd9ce584283af377113c1cade8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '575b54f22ecf71787f4cc8deb1ea753d') in 0.049295 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.401499 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Environment/background/middle.png
-  artifactKey: Guid(186447cd9ce584283af377113c1cade8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Environment/background/middle.png using Guid(186447cd9ce584283af377113c1cade8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56fe9bcb75babf7be104b2b70aadb111') in 0.012720 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 342.500397 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Environment/background/middle.png
-  artifactKey: Guid(186447cd9ce584283af377113c1cade8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Environment/background/middle.png using Guid(186447cd9ce584283af377113c1cade8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05f28a18031485d7bf5bcda9c39d8715') in 0.023380 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 349.462913 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Environment/background/middle.png
-  artifactKey: Guid(186447cd9ce584283af377113c1cade8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Environment/background/middle.png using Guid(186447cd9ce584283af377113c1cade8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ac8972aa5d7091d9eb7e9ef9da407da') in 0.013160 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 76.461800 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Sprites/Player/Hurt/Hurt2.png
-  artifactKey: Guid(23b28886693df4328b748f2034b0a71a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Sprites/Player/Hurt/Hurt2.png using Guid(23b28886693df4328b748f2034b0a71a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b15905113ef956740e3022f4aaa3152') in 0.019776 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 94.901620 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Environment/tileset.png
-  artifactKey: Guid(375c6f765985c4a539f757c9c8b5cfec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Environment/tileset.png using Guid(375c6f765985c4a539f757c9c8b5cfec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '070ce86f9f837a7172e56f509998c095') in 0.017373 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.946412 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Environment/tileset.png
-  artifactKey: Guid(375c6f765985c4a539f757c9c8b5cfec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Environment/tileset.png using Guid(375c6f765985c4a539f757c9c8b5cfec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15c5987750b14f1ca74bf841921900e9') in 0.011760 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 128.052686 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Environment/tileset.png
-  artifactKey: Guid(375c6f765985c4a539f757c9c8b5cfec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Environment/tileset.png using Guid(375c6f765985c4a539f757c9c8b5cfec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ec0da275da5621ad50966c4e9677f03') in 0.049878 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 174.607193 seconds.
-  path: Assets/場景素材/Warped City 2/Artwork/Environment/跳板.png
-  artifactKey: Guid(375c6f765985c4a539f757c9c8b5cfec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Warped City 2/Artwork/Environment/跳板.png using Guid(375c6f765985c4a539f757c9c8b5cfec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb226663f52c265bfc0fe6f406b5b8c1') in 0.031966 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 592.896711 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9fa0b607c43d12d5d8081a89de6beb5') in 0.006411 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 20.734148 seconds.
-  path: Assets/場景素材/Free Meat and Skin Icons/PNG/肉肉
-  artifactKey: Guid(ea56ec2340b11644ebf943e69d9b9090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Free Meat and Skin Icons/PNG/肉肉 using Guid(ea56ec2340b11644ebf943e69d9b9090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '981992cbb9f6e3e2098b27ccdd476b2c') in 0.001559 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 29.210300 seconds.
-  path: Assets/場景素材/肉跟肉跟肉/PNG/更多的肉/8.png
-  artifactKey: Guid(32a7cfbd0fcc70d4ba3ffc8ecc327a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/肉跟肉跟肉/PNG/更多的肉/8.png using Guid(32a7cfbd0fcc70d4ba3ffc8ecc327a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af6fa0a80be069dee16d8ab3689abe8f') in 0.023893 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000267 seconds.
-  path: Assets/場景素材/肉跟肉跟肉/PNG/更多的肉/9.png
-  artifactKey: Guid(3d1b2612f99679647b483450e87216e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/肉跟肉跟肉/PNG/更多的肉/9.png using Guid(3d1b2612f99679647b483450e87216e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3835a57cdb3656390f5dac9657ee813') in 0.037401 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/場景素材/肉跟肉跟肉/PNG/更多的肉/10.png
-  artifactKey: Guid(3e81c1625724b9d4aaff480683a2ed7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/肉跟肉跟肉/PNG/更多的肉/10.png using Guid(3e81c1625724b9d4aaff480683a2ed7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3146177189a7fe2e90e172ae91d71213') in 0.022375 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.681232 seconds.
-  path: Assets/場景素材/肉跟肉跟肉/PNG/更多的肉/11.png
-  artifactKey: Guid(39bd8c20bfee46a46b194391d7c86ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/肉跟肉跟肉/PNG/更多的肉/11.png using Guid(39bd8c20bfee46a46b194391d7c86ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '101df0ec58eb82b559a0fb1e9b2a7a70') in 0.021331 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000365 seconds.
-  path: Assets/場景素材/肉跟肉跟肉/PNG/更多的肉/14.png
-  artifactKey: Guid(409186a09ee0f29409f46b9a3f8aeadc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/肉跟肉跟肉/PNG/更多的肉/14.png using Guid(409186a09ee0f29409f46b9a3f8aeadc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '665b4f098b8a53a26e6391cb7952219d') in 0.019910 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000376 seconds.
-  path: Assets/場景素材/肉跟肉跟肉/PNG/更多的肉/15.png
-  artifactKey: Guid(59cedb1a62032d740911c0f0d228eee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/肉跟肉跟肉/PNG/更多的肉/15.png using Guid(59cedb1a62032d740911c0f0d228eee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df4439c2f1a974b2a500c3f1e5dc098c') in 0.021993 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/場景素材/肉跟肉跟肉/PNG/更多的肉/12.png
-  artifactKey: Guid(32a827b8f03b5174dac401829a1a0573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/肉跟肉跟肉/PNG/更多的肉/12.png using Guid(32a827b8f03b5174dac401829a1a0573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a284a5eb4e9779f64142e7dc5ca391b') in 0.022257 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/場景素材/肉跟肉跟肉/PNG/更多的肉/13.png
-  artifactKey: Guid(40cb40fddc4eddc49ba01d6f498251a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/肉跟肉跟肉/PNG/更多的肉/13.png using Guid(40cb40fddc4eddc49ba01d6f498251a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a110fbf8fd9f530a6d623d6b72350e2') in 0.017516 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 30.083927 seconds.
-  path: Assets/場景素材/FreePixelFood/Sprite
-  artifactKey: Guid(3a440b70ee1b84ed9b1cf6d3b2614ce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/FreePixelFood/Sprite using Guid(3a440b70ee1b84ed9b1cf6d3b2614ce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bfe598f521031f0d18cc8611db6e376') in 0.008215 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.641836 seconds.
-  path: Assets/場景素材/FreePixelFood/ReadMe.txt
-  artifactKey: Guid(a74964cf08c96664eb48387422fa6e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/FreePixelFood/ReadMe.txt using Guid(a74964cf08c96664eb48387422fa6e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10f2c0c3f90959bf4187666cbae7b7bb') in 0.396866 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.370526 seconds.
-  path: Assets/場景素材/FreePixelFood/Food.unity
-  artifactKey: Guid(bce5504a907bb834d8934eea847632aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/FreePixelFood/Food.unity using Guid(bce5504a907bb834d8934eea847632aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '010aebc93c3eced08c3df8c3e4b309d9') in 0.008574 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.193819 seconds.
-  path: Assets/場景素材/FreePixelFood/Sprite/Food.png
-  artifactKey: Guid(142ff8784e552734f9d6a895491d0ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/FreePixelFood/Sprite/Food.png using Guid(142ff8784e552734f9d6a895491d0ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92ea266d10c798d748f9613ecf043808') in 0.183654 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.027738 seconds.
-  path: Assets/場景素材/FreePixelFood/Sprite/Food
-  artifactKey: Guid(955e829324d844522a9a4689a4aa6763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/FreePixelFood/Sprite/Food using Guid(955e829324d844522a9a4689a4aa6763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '368c68c42b9502763798d6ce7bf5f780') in 0.008030 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.061049 seconds.
-  path: Assets/場景素材/FreePixelFood/Sprite/Food/Apple.png
-  artifactKey: Guid(61d01e8616313344b978a6518fd86ed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/FreePixelFood/Sprite/Food/Apple.png using Guid(61d01e8616313344b978a6518fd86ed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7c564fadb6c3281a001c11e144f464a') in 0.016667 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/場景素材/FreePixelFood/Sprite/Food/Avocado.png
-  artifactKey: Guid(2d996a9f7524c354585e081fdf1c9ada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/FreePixelFood/Sprite/Food/Avocado.png using Guid(2d996a9f7524c354585e081fdf1c9ada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9632656303c2e40398d22819531f0b1f') in 0.020277 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000442 seconds.
-  path: Assets/場景素材/FreePixelFood/Sprite/Food/AppleWorm.png
-  artifactKey: Guid(8fa37c2c8b9bd654c96a4fae10f387a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/FreePixelFood/Sprite/Food/AppleWorm.png using Guid(8fa37c2c8b9bd654c96a4fae10f387a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e58567a0551a9aa6745cdc7f31ff1df3') in 0.024815 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/場景素材/FreePixelFood/Sprite/Food/Beer.png
-  artifactKey: Guid(e0a7fb47c7111464f866363e7a3f47da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/FreePixelFood/Sprite/Food/Beer.png using Guid(e0a7fb47c7111464f866363e7a3f47da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf3af2aeb9dba952d437feba51c70f29') in 0.021390 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000454 seconds.
-  path: Assets/場景素材/FreePixelFood/Sprite/Food/Bacon.png
-  artifactKey: Guid(0b9e159b363a1ff4f8982693963e393d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/FreePixelFood/Sprite/Food/Bacon.png using Guid(0b9e159b363a1ff4f8982693963e393d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aac8e5d91a7bae188684654d0346ab35') in 0.021747 seconds 
+Start importing Assets/場景素材/場景及跳板/所有物件/1.跳板在這裡/背景/middle.png using Guid(186447cd9ce584283af377113c1cade8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e96612de4f64253bcb773a202a8f4a25') in 0.035278 seconds 
+  Import took 0.042119 seconds .
+
 ========================================================================
 Received Import Request.
   Time since last request: 0.000293 seconds.
-  path: Assets/場景素材/FreePixelFood/Sprite/Food/Boar.png
-  artifactKey: Guid(d139b48a372802a42b221ad4a1f80911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/FreePixelFood/Sprite/Food/Boar.png using Guid(d139b48a372802a42b221ad4a1f80911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5188ecd426ef27deb4dd1a9d6fa81e4') in 0.021520 seconds 
+  path: Assets/場景素材/場景及跳板/所有物件/1.跳板在這裡/背景/front.png
+  artifactKey: Guid(6e929c941613e44cbb3e08149ba789e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/場景及跳板/所有物件/1.跳板在這裡/背景/front.png using Guid(6e929c941613e44cbb3e08149ba789e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c2fc579989e15a22bf0276dc218d61d') in 0.068723 seconds 
+  Import took 0.096238 seconds .
+
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000321 seconds.
-  path: Assets/場景素材/FreePixelFood/Sprite/Food/Bread.png
-  artifactKey: Guid(c728868677dfad541b6543a1f2aec055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/FreePixelFood/Sprite/Food/Bread.png using Guid(c728868677dfad541b6543a1f2aec055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c5d17c68aebd8e16e6391e88452b5e3') in 0.020257 seconds 
+  Time since last request: 1185.322275 seconds.
+  path: Assets/場景/遊戲場景.unity
+  artifactKey: Guid(0b674db1ac24be84882514f70488cf47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景/遊戲場景.unity using Guid(0b674db1ac24be84882514f70488cf47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32fd67d037f25b30064eb903fcf9555a') in 0.010423 seconds 
+  Import took 0.040658 seconds .
+
 ========================================================================
 Received Import Request.
-  Time since last request: 9.495279 seconds.
-  path: Assets/場景素材/FreePixelFood/Sprite/Food.png
-  artifactKey: Guid(142ff8784e552734f9d6a895491d0ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/FreePixelFood/Sprite/Food.png using Guid(142ff8784e552734f9d6a895491d0ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ea056d9efa7359e8a0402faae21601f') in 0.042144 seconds 
+  Time since last request: 2.145367 seconds.
+  path: Assets/場景/開始畫面.unity
+  artifactKey: Guid(c8b72537d851c4761b23dc53c666faf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景/開始畫面.unity using Guid(c8b72537d851c4761b23dc53c666faf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '945ded3cd0a2c68e7f1c7a19fa7fbe2d') in 0.010504 seconds 
+  Import took 0.131250 seconds .
+
 ========================================================================
 Received Import Request.
-  Time since last request: 6.591206 seconds.
-  path: Assets/場景素材/FreePixelFood/Sprite/Food.png
-  artifactKey: Guid(142ff8784e552734f9d6a895491d0ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/FreePixelFood/Sprite/Food.png using Guid(142ff8784e552734f9d6a895491d0ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '980378454238a8086cea6bb558e0511b') in 0.017937 seconds 
+  Time since last request: 235.168782 seconds.
+  path: Assets/素材/日本書法大司.ttf
+  artifactKey: Guid(896c6408fce0847849f423ec90395af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/素材/日本書法大司.ttf using Guid(896c6408fce0847849f423ec90395af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad5aaad6d58950ab2a9e6423b0c84ad6') in 0.314346 seconds 
+  Import took 0.363106 seconds .
+
 ========================================================================
 Received Import Request.
-  Time since last request: 519.643614 seconds.
-  path: Assets/場景素材/FreePixelFood/Sprite/Food.png
-  artifactKey: Guid(142ff8784e552734f9d6a895491d0ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/FreePixelFood/Sprite/Food.png using Guid(142ff8784e552734f9d6a895491d0ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb25cc2e2ef7f13c79aee18e7d57f1f2') in 0.201825 seconds 
+  Time since last request: 0.000288 seconds.
+  path: Assets/素材/衡山毛筆.otf
+  artifactKey: Guid(50f45cc9702014af0bc56ab783bf8dc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/素材/衡山毛筆.otf using Guid(50f45cc9702014af0bc56ab783bf8dc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd77f42b086849814dd032c5538974fb8') in 0.180909 seconds 
+  Import took 0.252167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 100.819304 seconds.
+  path: Assets/調色盤/地板.prefab
+  artifactKey: Guid(d35220f19b6f1764d8f152ad832e43bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/地板.prefab using Guid(d35220f19b6f1764d8f152ad832e43bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a316018ae9ffe6fa34b8c02f29266d6a') in 0.074262 seconds 
+  Import took 0.133455 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1672.242454 seconds.
+  path: Assets/場景素材/場景及跳板/所有物件/1.跳板在這裡/tileset_1.asset
+  artifactKey: Guid(02ac600455de99d49b446d22d2bfd100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/場景及跳板/所有物件/1.跳板在這裡/tileset_1.asset using Guid(02ac600455de99d49b446d22d2bfd100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd184aaef4ac10a25853f4e2a3411fdaf') in 0.044390 seconds 
+  Import took 0.157368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.503720 seconds.
+  path: Assets/場景素材/場景及跳板/所有物件/1.跳板在這裡/跳板.png
+  artifactKey: Guid(375c6f765985c4a539f757c9c8b5cfec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/場景及跳板/所有物件/1.跳板在這裡/跳板.png using Guid(375c6f765985c4a539f757c9c8b5cfec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '157bc20042e016a61de0b2d3c367f376') in 0.043182 seconds 
+  Import took 0.063792 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1186.422028 seconds.
+  path: Assets/材質球
+  artifactKey: Guid(d429bab88e6f64a5f8710c716abf2a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/材質球 using Guid(d429bab88e6f64a5f8710c716abf2a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4ebf66c9894517cb7099376479375a8') in 0.013805 seconds 
+  Import took 0.022359 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 54.177186 seconds.
+  path: Assets/材質球/遊戲背景.mat
+  artifactKey: Guid(aace395c6931cb7459d46dc987e7fbfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/材質球/遊戲背景.mat using Guid(aace395c6931cb7459d46dc987e7fbfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '897052637423d55b1b1012e1be6fb4ad') in 0.074841 seconds 
+  Import took 0.120215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 220.765408 seconds.
+  path: Assets/場景素材
+  artifactKey: Guid(3d6bcd7147bdf4a5ca5d75cf454d02aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材 using Guid(3d6bcd7147bdf4a5ca5d75cf454d02aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1ad7b9816b983fa6824567af584ad61') in 0.012028 seconds 
+  Import took 0.379418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 117.911716 seconds.
+  path: Assets/場景素材/場景及跳板/所有物件/1.跳板在這裡/一堆招牌/多色橫小招牌
+  artifactKey: Guid(874b7c798093049f49d675cffd24916e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/場景及跳板/所有物件/1.跳板在這裡/一堆招牌/多色橫小招牌 using Guid(874b7c798093049f49d675cffd24916e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d3236621e4849799837fb2d2e76cb7d') in 0.101248 seconds 
+  Import took 0.129914 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001734 seconds.
+  path: Assets/場景素材/場景及跳板/所有物件/1.跳板在這裡/一堆招牌/多色橫小招牌/banner-d1.png
+  artifactKey: Guid(cd7cb7537828e467da43a8434a04a7e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/場景及跳板/所有物件/1.跳板在這裡/一堆招牌/多色橫小招牌/banner-d1.png using Guid(cd7cb7537828e467da43a8434a04a7e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4f2b2898e70b8b06a381cf87ac471be') in 0.102644 seconds 
+  Import took 0.108974 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/場景素材/場景及跳板/所有物件/1.跳板在這裡/一堆招牌/多色橫小招牌/banner-d2.png
+  artifactKey: Guid(ea932d77e62c64ba599fbf33d0af18e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/場景及跳板/所有物件/1.跳板在這裡/一堆招牌/多色橫小招牌/banner-d2.png using Guid(ea932d77e62c64ba599fbf33d0af18e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42c9699ab6c518f6c79b7ba621f73885') in 0.063603 seconds 
+  Import took 0.084797 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.416815 seconds.
+  path: Assets/場景素材/場景及跳板/所有物件/1.跳板在這裡/一堆招牌/多色橫小招牌/banner-d3.png
+  artifactKey: Guid(cd482460ba2a94e2eb5d4b01d7acc105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/場景及跳板/所有物件/1.跳板在這裡/一堆招牌/多色橫小招牌/banner-d3.png using Guid(cd482460ba2a94e2eb5d4b01d7acc105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bad6a106d837bd6ffbda6b119eb19a5') in 0.075671 seconds 
+  Import took 0.088155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/場景素材/場景及跳板/所有物件/1.跳板在這裡/一堆招牌/多色橫小招牌/banner-d4.png
+  artifactKey: Guid(5434301a4814c4233ad3e13118ff01db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/場景及跳板/所有物件/1.跳板在這裡/一堆招牌/多色橫小招牌/banner-d4.png using Guid(5434301a4814c4233ad3e13118ff01db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '189538c41d073671217b47ee058446fa') in 0.045921 seconds 
+  Import took 0.074770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 83.547161 seconds.
+  path: Assets/場景素材/場景及跳板/所有物件/1.跳板在這裡/背景/back.png
+  artifactKey: Guid(27967ee1f727640d3a07da062fa83401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/場景及跳板/所有物件/1.跳板在這裡/背景/back.png using Guid(27967ee1f727640d3a07da062fa83401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '086696d5a9bf89e02d4099c5411ce3c6') in 0.021840 seconds 
+  Import took 0.060542 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.424346 seconds.
+  path: Assets/場景素材/場景及跳板/所有物件/1.跳板在這裡/背景/back.png
+  artifactKey: Guid(27967ee1f727640d3a07da062fa83401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/場景及跳板/所有物件/1.跳板在這裡/背景/back.png using Guid(27967ee1f727640d3a07da062fa83401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81ce519e9dece167c0edf85dc554a8ee') in 0.018421 seconds 
+  Import took 0.035895 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.924818 seconds.
+  path: Assets/場景素材/場景及跳板/所有物件/1.跳板在這裡/背景/back.png
+  artifactKey: Guid(27967ee1f727640d3a07da062fa83401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/場景及跳板/所有物件/1.跳板在這裡/背景/back.png using Guid(27967ee1f727640d3a07da062fa83401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c30ccad60d642ed9de3ec683c080091') in 0.020780 seconds 
+  Import took 0.036410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.517753 seconds.
+  path: Assets/場景素材/場景及跳板/所有物件/1.跳板在這裡/背景/back.png
+  artifactKey: Guid(27967ee1f727640d3a07da062fa83401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/場景及跳板/所有物件/1.跳板在這裡/背景/back.png using Guid(27967ee1f727640d3a07da062fa83401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5547d30f52cca16c288132175a8d6b2') in 0.017180 seconds 
+  Import took 0.033022 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 81.002927 seconds.
+  path: Assets/場景素材/場景及跳板/所有物件/1.跳板在這裡/背景/back.png
+  artifactKey: Guid(27967ee1f727640d3a07da062fa83401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/場景及跳板/所有物件/1.跳板在這裡/背景/back.png using Guid(27967ee1f727640d3a07da062fa83401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccd5f87994a4dfbfaea84e9273203790') in 0.018916 seconds 
+  Import took 0.363107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 162.463097 seconds.
+  path: Assets/材質球/遊戲背景.mat
+  artifactKey: Guid(aace395c6931cb7459d46dc987e7fbfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/材質球/遊戲背景.mat using Guid(aace395c6931cb7459d46dc987e7fbfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dab8737531196b504f66729807725a5') in 0.379236 seconds 
+  Import took 0.389721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 163.273936 seconds.
+  path: Assets/場景素材/場景及跳板/所有物件/1.跳板在這裡/背景/back.asset
+  artifactKey: Guid(313331c5bb8770f40a0f10f73ee086d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/場景及跳板/所有物件/1.跳板在這裡/背景/back.asset using Guid(313331c5bb8770f40a0f10f73ee086d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75e6ddf3136980067ede43865b6dfb9a') in 0.023718 seconds 
+  Import took 0.031865 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.854894 seconds.
+  path: Assets/場景素材/場景及跳板/所有物件/1.跳板在這裡/背景/front.asset
+  artifactKey: Guid(88b78245b43ab3c4d8c532e6938bec34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/場景及跳板/所有物件/1.跳板在這裡/背景/front.asset using Guid(88b78245b43ab3c4d8c532e6938bec34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd273d4e45c40de65bb6e0cac78e385db') in 0.019223 seconds 
+  Import took 0.026946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.208731 seconds.
+  path: Assets/場景素材/場景及跳板/所有物件/1.跳板在這裡/背景/front.png
+  artifactKey: Guid(6e929c941613e44cbb3e08149ba789e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/場景及跳板/所有物件/1.跳板在這裡/背景/front.png using Guid(6e929c941613e44cbb3e08149ba789e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9d3e8caca77233cd8db075aa7726fd3') in 0.019186 seconds 
+  Import took 0.025824 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003324 seconds.
+  path: Assets/場景素材/場景及跳板/所有物件/1.跳板在這裡/背景/front.png
+  artifactKey: Guid(6e929c941613e44cbb3e08149ba789e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/場景及跳板/所有物件/1.跳板在這裡/背景/front.png using Guid(6e929c941613e44cbb3e08149ba789e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9d3e8caca77233cd8db075aa7726fd3') in 0.020852 seconds 
+  Import took 0.028035 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
