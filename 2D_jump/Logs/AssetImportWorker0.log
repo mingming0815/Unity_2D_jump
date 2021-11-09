@@ -3039,3 +3039,9 @@ Received Import Request.
   path: Assets/場景/遊戲場景.unity
   artifactKey: Guid(0b674db1ac24be84882514f70488cf47) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
 Start importing Assets/場景/遊戲場景.unity using Guid(0b674db1ac24be84882514f70488cf47) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'd1d423fa934c49925280443bd63d9434') in 0.017841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1003.085843 seconds.
+  path: Assets/場景/遊戲場景.unity
+  artifactKey: Guid(0b674db1ac24be84882514f70488cf47) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/場景/遊戲場景.unity using Guid(0b674db1ac24be84882514f70488cf47) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '215e2adc93796e497d134ff7b0b6f5a1') in 0.017058 seconds 
