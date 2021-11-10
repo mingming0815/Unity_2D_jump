@@ -2,7 +2,7 @@ Unity Editor version:    2021.1.23f1 (b50729e604a9)
 Branch:                  2021.1/staging
 Build type:              Release
 Batch mode:              YES
-macOS version:           Version 10.15.7 (Build 19H1217)
+macOS version:           Version 10.15.7 (Build 19H1419)
 Darwin version:          19.6.0
 Architecture:            x86_64
 Running under Rosetta:   NO
@@ -19,118 +19,118 @@ COMMAND LINE ARGUMENTS:
 -name
 AssetImportWorker0
 -projectPath
-/Users/chenmingming/Desktop/unity/Unity_2D_jump/2D_jump
+/Users/apple/Documents/Unity_2D_jump/2D_jump
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52342
-Successfully changed project path to: /Users/chenmingming/Desktop/unity/Unity_2D_jump/2D_jump
-/Users/chenmingming/Desktop/unity/Unity_2D_jump/2D_jump
+50434
+Successfully changed project path to: /Users/apple/Documents/Unity_2D_jump/2D_jump
+/Users/apple/Documents/Unity_2D_jump/2D_jump
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 127.39 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 142.02 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.23f1 (b50729e604a9)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.1.23f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/chenmingming/Desktop/unity/Unity_2D_jump/2D_jump/Assets
+[Subsystems] Discovering subsystems at path /Users/apple/Documents/Unity_2D_jump/2D_jump/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
-2021-11-10 05:47:40.009 Unity[5862:243032] MSI MP271 preferred device: Intel(R) Iris(TM) Plus Graphics 640 (low power)
-2021-11-10 05:47:40.009 Unity[5862:243032] Metal devices available: 1
-2021-11-10 05:47:40.009 Unity[5862:243032] 0: Intel(R) Iris(TM) Plus Graphics 640 (low power)
-2021-11-10 05:47:40.010 Unity[5862:243032] Using device Intel(R) Iris(TM) Plus Graphics 640 (low power)
-Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics 640
+2021-11-10 21:53:35.106 Unity[4408:84986] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 645 (low power)
+2021-11-10 21:53:35.106 Unity[4408:84986] Metal devices available: 1
+2021-11-10 21:53:35.106 Unity[4408:84986] 0: Intel(R) Iris(TM) Plus Graphics 645 (low power)
+2021-11-10 21:53:35.106 Unity[4408:84986] Using device Intel(R) Iris(TM) Plus Graphics 645 (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics 645
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.1.23f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.1.23f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.1.23f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56862
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56408
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.1.23f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.1.23f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000661 seconds.
+Registered in 0.002311 seconds.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 120.06 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 116.05 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.447 seconds
+- Completed reload, in  4.646 seconds
 Domain Reload Profiling:
-	ReloadAssembly (4447ms)
-		BeginReloadAssembly (59ms)
+	ReloadAssembly (4647ms)
+		BeginReloadAssembly (122ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (660ms)
-			LoadAssemblies (58ms)
+		EndReloadAssembly (636ms)
+			LoadAssemblies (122ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (250ms)
+			SetupTypeCache (241ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (48ms)
-			SetupLoadedEditorAssemblies (311ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (296ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (120ms)
+				RefreshPlugins (116ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (143ms)
-				ProcessInitializeOnLoadMethodAttributes (38ms)
+				ProcessInitializeOnLoadAttributes (130ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002464 seconds.
+Registered in 0.007303 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/chenmingming/Desktop/unity/Unity_2D_jump/2D_jump/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/chenmingming/Desktop/unity/Unity_2D_jump/2D_jump/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/apple/Documents/Unity_2D_jump/2D_jump/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/apple/Documents/Unity_2D_jump/2D_jump/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 129.93 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 117.65 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.710 seconds
+- Completed reload, in  1.747 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1710ms)
-		BeginReloadAssembly (204ms)
+	ReloadAssembly (1748ms)
+		BeginReloadAssembly (209ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (47ms)
-		EndReloadAssembly (1424ms)
-			LoadAssemblies (151ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (1460ms)
+			LoadAssemblies (143ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (505ms)
+			SetupTypeCache (537ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (79ms)
-			SetupLoadedEditorAssemblies (541ms)
+			RebuildScriptCaches (87ms)
+			SetupLoadedEditorAssemblies (544ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (130ms)
-				BeforeProcessingInitializeOnLoad (87ms)
-				ProcessInitializeOnLoadAttributes (298ms)
-				ProcessInitializeOnLoadMethodAttributes (20ms)
+				RefreshPlugins (118ms)
+				BeforeProcessingInitializeOnLoad (88ms)
+				ProcessInitializeOnLoadAttributes (309ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2021.1.23f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
-Refreshing native plugins compatible for Editor in 1.49 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3676 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 254.1 MB.
-System memory in use after: 254.3 MB.
+System memory in use before: 253.7 MB.
+System memory in use after: 253.9 MB.
 
-Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 4128.
-Total: 4.578429 ms (FindLiveObjects: 0.444066 ms CreateObjectMapping: 0.291605 ms MarkObjects: 3.776434 ms  DeleteObjects: 0.064917 ms)
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 4125.
+Total: 4.898296 ms (FindLiveObjects: 0.476412 ms CreateObjectMapping: 0.321995 ms MarkObjects: 4.034311 ms  DeleteObjects: 0.064220 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -144,60 +144,536 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/場景素材/和尚在這裡/Sprites/巫師火人天使/Wizard-Fire/fire8.png
-  artifactKey: Guid(ee9497270f8e4451d905d17d90ccad9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/和尚在這裡/Sprites/巫師火人天使/Wizard-Fire/fire8.png using Guid(ee9497270f8e4451d905d17d90ccad9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3d14b8112b9aae0c6d1e075af40cdf3') in 0.380311 seconds 
+  path: Assets/地形.prefab
+  artifactKey: Guid(e916708bab823e44f9f5a23c5e923ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形.prefab using Guid(e916708bab823e44f9f5a23c5e923ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cc7fd7551b4dd17795cc6a8d0114620') in 0.447361 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000254 seconds.
+  Time since last request: 103.783482 seconds.
+  path: Assets/場景
+  artifactKey: Guid(c326575ba79a645bbb6cc18916c8563c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景 using Guid(c326575ba79a645bbb6cc18916c8563c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ff02785e253cd076db337c8df262e10') in 0.000941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.063290 seconds.
+  path: Assets/場景/遊戲場景.unity
+  artifactKey: Guid(0b674db1ac24be84882514f70488cf47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景/遊戲場景.unity using Guid(0b674db1ac24be84882514f70488cf47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dce3b09ddd4dce745887ac54b4e4229') in 0.001564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 522.672326 seconds.
+  path: Assets/動畫
+  artifactKey: Guid(b6d57a77376ae471a9672f1d1ba4e94e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/動畫 using Guid(b6d57a77376ae471a9672f1d1ba4e94e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee2cbcdaaec828de7aef2b9aeefcdc8e') in 0.003044 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.430576 seconds.
+  path: Assets/動畫/和尚.controller
+  artifactKey: Guid(a60e9c06d1b24423d82ba81497d26751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/動畫/和尚.controller using Guid(a60e9c06d1b24423d82ba81497d26751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f7f1070f0231ad8edf1ad6fb23be17b') in 0.356136 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008245 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/apple/Documents/Unity_2D_jump/2D_jump/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/apple/Documents/Unity_2D_jump/2D_jump/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.535 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1536ms)
+		BeginReloadAssembly (271ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (163ms)
+		EndReloadAssembly (1183ms)
+			LoadAssemblies (108ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (527ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (67ms)
+			SetupLoadedEditorAssemblies (346ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (59ms)
+				ProcessInitializeOnLoadAttributes (267ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3666 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 268.1 MB.
+System memory in use after: 268.4 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 4135.
+Total: 4.118546 ms (FindLiveObjects: 0.339990 ms CreateObjectMapping: 0.231024 ms MarkObjects: 3.496129 ms  DeleteObjects: 0.050096 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008370 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/apple/Documents/Unity_2D_jump/2D_jump/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/apple/Documents/Unity_2D_jump/2D_jump/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.699 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1700ms)
+		BeginReloadAssembly (246ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (108ms)
+		EndReloadAssembly (1363ms)
+			LoadAssemblies (191ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (593ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (78ms)
+			SetupLoadedEditorAssemblies (392ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (304ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3666 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 268.4 MB.
+System memory in use after: 268.7 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 4138.
+Total: 4.349150 ms (FindLiveObjects: 0.316332 ms CreateObjectMapping: 0.247829 ms MarkObjects: 3.742097 ms  DeleteObjects: 0.041580 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 304.544548 seconds.
+  path: Assets/材質球/開始畫面背景.mat
+  artifactKey: Guid(40bbb0ba04053433cb624949f8d984d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/材質球/開始畫面背景.mat using Guid(40bbb0ba04053433cb624949f8d984d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43f1a1b70bcff09a624f1773087e01bf') in 1.305997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.660589 seconds.
+  path: Assets/圖片/logo-B.png
+  artifactKey: Guid(4242a619aa89347e7b36075a1bbfca69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/logo-B.png using Guid(4242a619aa89347e7b36075a1bbfca69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4c4ace554f282df1500650f3ad6d431') in 0.838362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/圖片/方形.png
+  artifactKey: Guid(7c6ffa3d3832e4da98aae10be50c87cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/方形.png using Guid(7c6ffa3d3832e4da98aae10be50c87cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcdb06306f8ad8ca7d947af0393888e9') in 0.031172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/圖片/logo-w.png
+  artifactKey: Guid(deba5cba23b964793b4f3beb6a2fba9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/logo-w.png using Guid(deba5cba23b964793b4f3beb6a2fba9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eac49debc9173c9612d7b46945193687') in 0.024264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000399 seconds.
+  path: Assets/圖片/三角形.png
+  artifactKey: Guid(477eb1fb5d4c4480f87b1024399252fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/三角形.png using Guid(477eb1fb5d4c4480f87b1024399252fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0778c067032ae0d9c0abad62fa85b69c') in 0.019562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.040276 seconds.
+  path: Assets/場景素材
+  artifactKey: Guid(3d6bcd7147bdf4a5ca5d75cf454d02aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材 using Guid(3d6bcd7147bdf4a5ca5d75cf454d02aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d7715a57911c0a813ff2354a1722bfc') in 0.002253 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.202839 seconds.
+  path: Assets/場景素材/和尚在這裡
+  artifactKey: Guid(239b9f8f3e16f4ccf900cfd8763379d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/和尚在這裡 using Guid(239b9f8f3e16f4ccf900cfd8763379d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38729f4d65b23f0f66885c10cae31419') in 0.002464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.479368 seconds.
+  path: Assets/場景素材/和尚在這裡/Sprites
+  artifactKey: Guid(da08416cc812547178a26bc586017b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/和尚在這裡/Sprites using Guid(da08416cc812547178a26bc586017b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a18f5420bb402424104bb4daa009b11') in 0.002254 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.126153 seconds.
+  path: Assets/場景素材/和尚在這裡/Sprites/巫師火人天使
+  artifactKey: Guid(629803cf4b66b42d3bcf3b8f930613de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/和尚在這裡/Sprites/巫師火人天使 using Guid(629803cf4b66b42d3bcf3b8f930613de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fc0fa69c4390980dbdd6ff36717baaa') in 0.002517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.552979 seconds.
+  path: Assets/場景素材/和尚在這裡/Sprites/巫師火人天使/Angel-Attack
+  artifactKey: Guid(e232efc1f74314517b71f383bbe01497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/和尚在這裡/Sprites/巫師火人天使/Angel-Attack using Guid(e232efc1f74314517b71f383bbe01497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1206447cb059809f509f46d7b9c265ec') in 0.002377 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.103641 seconds.
+  path: Assets/場景素材/和尚在這裡/Sprites/巫師火人天使/Angel-Attack/angel-attack-1.png
+  artifactKey: Guid(ab8c6ad7260aa4988b3a67bd49e66038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/和尚在這裡/Sprites/巫師火人天使/Angel-Attack/angel-attack-1.png using Guid(ab8c6ad7260aa4988b3a67bd49e66038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b8e3f4dd25cb7c326d48eb9dffd98c0') in 0.022423 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/場景素材/和尚在這裡/Sprites/巫師火人天使/Angel-Attack/angel-attack-2.png
+  artifactKey: Guid(4694483d57006449b83361c219c4f27a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/和尚在這裡/Sprites/巫師火人天使/Angel-Attack/angel-attack-2.png using Guid(4694483d57006449b83361c219c4f27a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaa96212a199ef3e59afa0b67feedd41') in 0.020188 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/場景素材/和尚在這裡/Sprites/巫師火人天使/Angel-Attack/angel-attack-3.png
+  artifactKey: Guid(cf4d6ac7b070d484fa7b90c92bbcba93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/和尚在這裡/Sprites/巫師火人天使/Angel-Attack/angel-attack-3.png using Guid(cf4d6ac7b070d484fa7b90c92bbcba93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac8bda00329eec1fad8d34c069caf4cb') in 0.022150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.459763 seconds.
+  path: Assets/場景素材/和尚在這裡/Sprites/巫師火人天使/Angel-Idle
+  artifactKey: Guid(f35cb5a6a591e4e3a87b0de26e265883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/和尚在這裡/Sprites/巫師火人天使/Angel-Idle using Guid(f35cb5a6a591e4e3a87b0de26e265883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99b1d01dbc359b585944dac74ee91f61') in 0.002022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.075961 seconds.
+  path: Assets/場景素材/和尚在這裡/Sprites/巫師火人天使/Angel-Idle/angel1.png
+  artifactKey: Guid(fce97958da54a4c40a77191a048fa121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/和尚在這裡/Sprites/巫師火人天使/Angel-Idle/angel1.png using Guid(fce97958da54a4c40a77191a048fa121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b405a00372d9996c9a457964203fb7c') in 0.020981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/場景素材/和尚在這裡/Sprites/巫師火人天使/Angel-Idle/angel7.png
+  artifactKey: Guid(3d67c7d35f76d415ab46d308411ae49f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/和尚在這裡/Sprites/巫師火人天使/Angel-Idle/angel7.png using Guid(3d67c7d35f76d415ab46d308411ae49f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fc6faa74509f522083926ebcba1b998') in 0.018567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/場景素材/和尚在這裡/Sprites/巫師火人天使/Angel-Idle/angel3.png
+  artifactKey: Guid(66378c6e1c74a4e1598202a298a855b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/和尚在這裡/Sprites/巫師火人天使/Angel-Idle/angel3.png using Guid(66378c6e1c74a4e1598202a298a855b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbf31b4b114fb0dedaca43543cf9316d') in 0.015644 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
   path: Assets/場景素材/和尚在這裡/Sprites/巫師火人天使/Angel-Idle/angel8.png
   artifactKey: Guid(55483373304e84a7c821d5390de99fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/和尚在這裡/Sprites/巫師火人天使/Angel-Idle/angel8.png using Guid(55483373304e84a7c821d5390de99fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66e8c23c749962e39c1323f9dca1fffe') in 0.022803 seconds 
+Start importing Assets/場景素材/和尚在這裡/Sprites/巫師火人天使/Angel-Idle/angel8.png using Guid(55483373304e84a7c821d5390de99fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66e8c23c749962e39c1323f9dca1fffe') in 0.019244 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000308 seconds.
+  Time since last request: 0.000272 seconds.
+  path: Assets/場景素材/和尚在這裡/Sprites/巫師火人天使/Angel-Idle/angel4.png
+  artifactKey: Guid(3be7eb8ca5bd045a5b1955571b2b357e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/和尚在這裡/Sprites/巫師火人天使/Angel-Idle/angel4.png using Guid(3be7eb8ca5bd045a5b1955571b2b357e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbbe0cc56867243f42875e8320d091cc') in 0.025065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/場景素材/和尚在這裡/Sprites/巫師火人天使/Angel-Idle/angel6.png
+  artifactKey: Guid(a9334dabab2b04a25af2fd2cee6d9bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/和尚在這裡/Sprites/巫師火人天使/Angel-Idle/angel6.png using Guid(a9334dabab2b04a25af2fd2cee6d9bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62b3d8fc4fd3a71b95a374b7236d87ff') in 0.021158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/場景素材/和尚在這裡/Sprites/巫師火人天使/Angel-Idle/angel2.png
+  artifactKey: Guid(8227eed74717840efab40c23d2406b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/和尚在這裡/Sprites/巫師火人天使/Angel-Idle/angel2.png using Guid(8227eed74717840efab40c23d2406b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd5c088b16eaf6cca56b2166741be532') in 0.017450 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/場景素材/和尚在這裡/Sprites/巫師火人天使/Angel-Idle/angel5.png
+  artifactKey: Guid(73ed7f313e86e4564afc2c7b474d707f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/和尚在這裡/Sprites/巫師火人天使/Angel-Idle/angel5.png using Guid(73ed7f313e86e4564afc2c7b474d707f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bc09eb131669af2666baa68d00836bb') in 0.023106 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.828087 seconds.
+  path: Assets/場景素材/和尚在這裡/Sprites/巫師火人天使/Wizard-Idle
+  artifactKey: Guid(6bb6600d826ed42248d07c15c0fc43b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/和尚在這裡/Sprites/巫師火人天使/Wizard-Idle using Guid(6bb6600d826ed42248d07c15c0fc43b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed54408b68f789c109756b9f69768c4c') in 0.002218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.066954 seconds.
+  path: Assets/場景素材/和尚在這裡/Sprites/巫師火人天使/Wizard-Idle/wizard-idle-1.png
+  artifactKey: Guid(0c95faed3aa5a43d3b19f112f0843c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/和尚在這裡/Sprites/巫師火人天使/Wizard-Idle/wizard-idle-1.png using Guid(0c95faed3aa5a43d3b19f112f0843c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7f178855fbb5b66db915172908b8d6d') in 0.022177 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000535 seconds.
+  path: Assets/場景素材/和尚在這裡/Sprites/巫師火人天使/Wizard-Idle/wizard-idle-2.png
+  artifactKey: Guid(c387fe7fa73be4111aad07557b418792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/和尚在這裡/Sprites/巫師火人天使/Wizard-Idle/wizard-idle-2.png using Guid(c387fe7fa73be4111aad07557b418792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74cde2a31d54275ac2685b264ed8d21e') in 0.017303 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/場景素材/和尚在這裡/Sprites/巫師火人天使/Wizard-Idle/wizard-idle-3.png
+  artifactKey: Guid(f7937dea06d104f4c9250daee53b1812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/和尚在這裡/Sprites/巫師火人天使/Wizard-Idle/wizard-idle-3.png using Guid(f7937dea06d104f4c9250daee53b1812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c300a1d0fd4eb9072adab6127d8bc9c') in 0.018424 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/場景素材/和尚在這裡/Sprites/巫師火人天使/Wizard-Idle/wizard-idle-4.png
+  artifactKey: Guid(68bcece766a354e5485d8c78f0517331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/和尚在這裡/Sprites/巫師火人天使/Wizard-Idle/wizard-idle-4.png using Guid(68bcece766a354e5485d8c78f0517331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fddf2a09e651cfc6c9fdb541d37e401') in 0.019461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000385 seconds.
+  path: Assets/場景素材/和尚在這裡/Sprites/巫師火人天使/Wizard-Idle/wizard-idle-5.png
+  artifactKey: Guid(b3e38fb5b83a24c4b93049ebc52a07a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/和尚在這裡/Sprites/巫師火人天使/Wizard-Idle/wizard-idle-5.png using Guid(b3e38fb5b83a24c4b93049ebc52a07a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd284d6d5b71e236d2f5bd083208b0f21') in 0.016122 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.621697 seconds.
+  path: Assets/場景素材/和尚在這裡/Sprites/巫師火人天使/Wizard-Fire
+  artifactKey: Guid(19f515b1a54a34364be160c312584c76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/和尚在這裡/Sprites/巫師火人天使/Wizard-Fire using Guid(19f515b1a54a34364be160c312584c76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37571214d49ccab32fd5d94f9d76ddff') in 0.002390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.053627 seconds.
+  path: Assets/場景素材/和尚在這裡/Sprites/巫師火人天使/Wizard-Fire/fire1.png
+  artifactKey: Guid(597896b5bd1ae45e8923818e25d67a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/和尚在這裡/Sprites/巫師火人天使/Wizard-Fire/fire1.png using Guid(597896b5bd1ae45e8923818e25d67a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3ec76b2f58a6b62b92571f3cb945d92') in 0.019233 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/場景素材/和尚在這裡/Sprites/巫師火人天使/Wizard-Fire/fire5.png
+  artifactKey: Guid(1dd4ddef074614c348aac963e1e72bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/和尚在這裡/Sprites/巫師火人天使/Wizard-Fire/fire5.png using Guid(1dd4ddef074614c348aac963e1e72bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5282f1ee3a74ce0b48f2ceb4642c248a') in 0.018136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/場景素材/和尚在這裡/Sprites/巫師火人天使/Wizard-Fire/fire2.png
+  artifactKey: Guid(b49ec68784d154909a60e813b802b30b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/和尚在這裡/Sprites/巫師火人天使/Wizard-Fire/fire2.png using Guid(b49ec68784d154909a60e813b802b30b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '347b68959172d888a9df3af5bdac200d') in 0.016077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/場景素材/和尚在這裡/Sprites/巫師火人天使/Wizard-Fire/fire4.png
+  artifactKey: Guid(2c329b811a83e46d8928f705262180e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/和尚在這裡/Sprites/巫師火人天使/Wizard-Fire/fire4.png using Guid(2c329b811a83e46d8928f705262180e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc5be6d5bd7ac8461331a12fcad27ccf') in 0.016435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/場景素材/和尚在這裡/Sprites/巫師火人天使/Wizard-Fire/fire8.png
+  artifactKey: Guid(ee9497270f8e4451d905d17d90ccad9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/和尚在這裡/Sprites/巫師火人天使/Wizard-Fire/fire8.png using Guid(ee9497270f8e4451d905d17d90ccad9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3d14b8112b9aae0c6d1e075af40cdf3') in 0.018051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/場景素材/和尚在這裡/Sprites/巫師火人天使/Wizard-Fire/fire3.png
+  artifactKey: Guid(a361d0bfbed22487ca5e27df3288e525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/和尚在這裡/Sprites/巫師火人天使/Wizard-Fire/fire3.png using Guid(a361d0bfbed22487ca5e27df3288e525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7c045020f2e68f3565357f9a2435267') in 0.019467 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
   path: Assets/場景素材/和尚在這裡/Sprites/巫師火人天使/Wizard-Fire/fire9.png
   artifactKey: Guid(21f0cd6808a7c4da4a5a8f23cc8bc8b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/和尚在這裡/Sprites/巫師火人天使/Wizard-Fire/fire9.png using Guid(21f0cd6808a7c4da4a5a8f23cc8bc8b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d516a1542671b7afa1bdf853f01993c') in 0.011725 seconds 
+Start importing Assets/場景素材/和尚在這裡/Sprites/巫師火人天使/Wizard-Fire/fire9.png using Guid(21f0cd6808a7c4da4a5a8f23cc8bc8b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d516a1542671b7afa1bdf853f01993c') in 0.018607 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000257 seconds.
+  Time since last request: 0.000367 seconds.
+  path: Assets/場景素材/和尚在這裡/Sprites/巫師火人天使/Wizard-Fire/fire7.png
+  artifactKey: Guid(c22e5288bcb4446e9a44e3d50cf014c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/和尚在這裡/Sprites/巫師火人天使/Wizard-Fire/fire7.png using Guid(c22e5288bcb4446e9a44e3d50cf014c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0613e42feea19814b44b11ba27c4fe05') in 0.016978 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000398 seconds.
   path: Assets/場景素材/和尚在這裡/Sprites/巫師火人天使/Wizard-Fire/fire10.png
   artifactKey: Guid(45d89eb64f4af4d5c907c7c5ef5b9cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/和尚在這裡/Sprites/巫師火人天使/Wizard-Fire/fire10.png using Guid(45d89eb64f4af4d5c907c7c5ef5b9cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bde56a6108c82a7faf80890212700335') in 0.015747 seconds 
+Start importing Assets/場景素材/和尚在這裡/Sprites/巫師火人天使/Wizard-Fire/fire10.png using Guid(45d89eb64f4af4d5c907c7c5ef5b9cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bde56a6108c82a7faf80890212700335') in 0.017890 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/場景素材/和尚在這裡/Sprites/巫師火人天使/Burning-Ghoul/burning-ghoul8.png
-  artifactKey: Guid(7d9c9cae814e7471688156a3807193d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/和尚在這裡/Sprites/巫師火人天使/Burning-Ghoul/burning-ghoul8.png using Guid(7d9c9cae814e7471688156a3807193d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6192c682d9f5519041a5edd754fbb36') in 0.014490 seconds 
+  Time since last request: 0.000381 seconds.
+  path: Assets/場景素材/和尚在這裡/Sprites/巫師火人天使/Wizard-Fire/fire6.png
+  artifactKey: Guid(47e952a4b77a047849c7150b9fdbca72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/和尚在這裡/Sprites/巫師火人天使/Wizard-Fire/fire6.png using Guid(47e952a4b77a047849c7150b9fdbca72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcdca4185e42627aaa8905995d4e3216') in 0.019852 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 454.353995 seconds.
-  path: Assets/場景素材/和尚在這裡/Sprites/巫師火人天使/Wizard-Fire/ok.ai
-  artifactKey: Guid(98b1ac53733544f78b4d1d9730da231c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/和尚在這裡/Sprites/巫師火人天使/Wizard-Fire/ok.ai using Guid(98b1ac53733544f78b4d1d9730da231c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7410719611947649b18b2ea02f37a67c') in 0.227326 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.013979 seconds.
+  Time since last request: 0.000322 seconds.
   path: Assets/場景素材/和尚在這裡/Sprites/巫師火人天使/Wizard-Fire/ok2.png
   artifactKey: Guid(11ec99e4226cc4a90a0d5b4126d35d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/和尚在這裡/Sprites/巫師火人天使/Wizard-Fire/ok2.png using Guid(11ec99e4226cc4a90a0d5b4126d35d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '675ffeedc5935eef440785eb22af185e') in 0.019404 seconds 
+Start importing Assets/場景素材/和尚在這裡/Sprites/巫師火人天使/Wizard-Fire/ok2.png using Guid(11ec99e4226cc4a90a0d5b4126d35d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b354b3167790d3238957dc435e2ea287') in 0.115314 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.921920 seconds.
+  Time since last request: 155.823122 seconds.
   path: Assets/場景素材/和尚在這裡/Sprites/巫師火人天使/Wizard-Fire/ok2.png
   artifactKey: Guid(11ec99e4226cc4a90a0d5b4126d35d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/和尚在這裡/Sprites/巫師火人天使/Wizard-Fire/ok2.png using Guid(11ec99e4226cc4a90a0d5b4126d35d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e13688946c789a28023f419255034e0') in 0.011507 seconds 
+Start importing Assets/場景素材/和尚在這裡/Sprites/巫師火人天使/Wizard-Fire/ok2.png using Guid(11ec99e4226cc4a90a0d5b4126d35d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b64d29b273d135e29839dc94a8c1258') in 0.089195 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.974650 seconds.
-  path: Assets/場景素材/和尚在這裡/Sprites/巫師火人天使/Wizard-Fire/ok2.png
-  artifactKey: Guid(11ec99e4226cc4a90a0d5b4126d35d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/和尚在這裡/Sprites/巫師火人天使/Wizard-Fire/ok2.png using Guid(11ec99e4226cc4a90a0d5b4126d35d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb3ce94320367fcb77236355a1a9f526') in 0.012169 seconds 
+  Time since last request: 53.197239 seconds.
+  path: Assets/動畫/ok2_0 1.controller
+  artifactKey: Guid(d40135c34234645628d6d2158428794d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/動畫/ok2_0 1.controller using Guid(d40135c34234645628d6d2158428794d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5b7b7755b5a61285c87758a76c82313') in 0.018684 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 437.210924 seconds.
-  path: Assets/場景素材/和尚在這裡/Sprites/巫師火人天使/Wizard-Fire/ok2.png
-  artifactKey: Guid(11ec99e4226cc4a90a0d5b4126d35d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/和尚在這裡/Sprites/巫師火人天使/Wizard-Fire/ok2.png using Guid(11ec99e4226cc4a90a0d5b4126d35d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7947ba02b2ff548214e3b4933aabe60') in 0.079273 seconds 
+  Time since last request: 3.480440 seconds.
+  path: Assets/動畫/ok2_6.controller
+  artifactKey: Guid(fc8a35e7d9b894a1b90cd62780e14149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/動畫/ok2_6.controller using Guid(fc8a35e7d9b894a1b90cd62780e14149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c11e7ab4624e2231382747351aa6eafd') in 0.009217 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006466 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/apple/Documents/Unity_2D_jump/2D_jump/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/apple/Documents/Unity_2D_jump/2D_jump/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.718 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1719ms)
+		BeginReloadAssembly (356ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (16ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (163ms)
+		EndReloadAssembly (1287ms)
+			LoadAssemblies (237ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (513ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (66ms)
+			SetupLoadedEditorAssemblies (346ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (61ms)
+				ProcessInitializeOnLoadAttributes (263ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (30ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3697 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 297.4 MB.
+System memory in use after: 297.7 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 4688.
+Total: 4.514004 ms (FindLiveObjects: 0.387198 ms CreateObjectMapping: 0.202253 ms MarkObjects: 3.899821 ms  DeleteObjects: 0.023648 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 50.618424 seconds.
+  path: Assets/動畫/New Animator Controller.controller
+  artifactKey: Guid(31a40a286243a477b8be43c32642b84a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/動畫/New Animator Controller.controller using Guid(31a40a286243a477b8be43c32642b84a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdd34dfd39459fc3405cbf7b7d163270') in 0.033927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.464525 seconds.
+  path: Assets/動畫/巫師.controller
+  artifactKey: Guid(31a40a286243a477b8be43c32642b84a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/動畫/巫師.controller using Guid(31a40a286243a477b8be43c32642b84a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43bb0b65fa15ade02089b9bcac8c1e36') in 0.007153 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009223 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/apple/Documents/Unity_2D_jump/2D_jump/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/apple/Documents/Unity_2D_jump/2D_jump/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.547 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2550ms)
+		BeginReloadAssembly (472ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (41ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (253ms)
+		EndReloadAssembly (1959ms)
+			LoadAssemblies (245ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (856ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (116ms)
+			SetupLoadedEditorAssemblies (532ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (88ms)
+				ProcessInitializeOnLoadAttributes (416ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (35ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3666 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 296.4 MB.
+System memory in use after: 296.7 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 4691.
+Total: 4.429905 ms (FindLiveObjects: 0.373873 ms CreateObjectMapping: 0.140057 ms MarkObjects: 3.897125 ms  DeleteObjects: 0.017869 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
