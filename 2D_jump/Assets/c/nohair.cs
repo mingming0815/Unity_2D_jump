@@ -24,4 +24,31 @@ public class nohair : MonoBehaviour
     [Header("血量"), Range(0,100)]
     public int blood = 100;
     #endregion
+
+    #region 事件：程式開始的入口
+    //開始事件：遊戲開始時執行一次
+    private void Start()
+    {
+        //呼叫方法：遊戲名稱();
+        Test();
+
+    }
+
+    #endregion
+
+    #region 方法語法
+    // 方法：保存城市內容之方塊、演算法、陳述式
+    // 語法：修飾詞 傳回類型 方法名稱 (參數1、參數2......參數n) {程式內容}
+    // void 無傳回：使用方法時不會傳回資料
+    // 自訂方法：唔會執行，需要呼叫才能執行
+    private void Test()
+    {
+        //輸出訊息
+        print("Hallow,wrold");
+    }
+
+    //參數語法：資料類型 參數名稱
+
+
+    #endregion
 }
