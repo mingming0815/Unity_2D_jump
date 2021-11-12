@@ -23,6 +23,10 @@ public class nohair : MonoBehaviour
 
     [Header("血量"), Range(0, 100)]
     public int blood = 100;
+
+    [Header("攻擊")]
+    public int attack1 = 20;
+
     #endregion
 
     #region 事件：程式開始的入口
@@ -32,7 +36,7 @@ public class nohair : MonoBehaviour
         //呼叫方法：方法名稱();
         Test();
         attack(10);  //呼叫時填入，引數
-        float w99 = attackup(2.2f);
+        //float w99 = attackup(2.2f);
 
     }
 
@@ -60,10 +64,10 @@ public class nohair : MonoBehaviour
         print("攻擊：" + speed);
     }
 
-    private float attackup(float setattackup);
-    {
-      return setattackup * 20;
-    }
+    //private float attackup(float setattackup);
+    //{
+    //   return setattackup * 20;
+    // }
 
     #endregion
 }
