@@ -20,8 +20,8 @@ public class nohair : MonoBehaviour
     //標題 Header  (字母)
     //字串 Tooltip (字串)
     //範圍 Range   (最小值,最大值)
-    
-    [Header("血量"), Range(0,100)]
+
+    [Header("血量"), Range(0, 100)]
     public int blood = 100;
     #endregion
 
@@ -29,8 +29,10 @@ public class nohair : MonoBehaviour
     //開始事件：遊戲開始時執行一次
     private void Start()
     {
-        //呼叫方法：遊戲名稱();
+        //呼叫方法：方法名稱();
         Test();
+        attack(10);  //呼叫時填入，引數
+        float w99 = attackup(2.2f);
 
     }
 
@@ -43,12 +45,25 @@ public class nohair : MonoBehaviour
     // 自訂方法：唔會執行，需要呼叫才能執行
     private void Test()
     {
-        //輸出訊息
-        print("Hallow,wrold");
+        //輸出訊息至unity儀表板
+        print("咩噗");
+    }
+
+    private void attack()
+    {
+        print("攻擊：" + 10);
     }
 
     //參數語法：資料類型 參數名稱
+    private void attack(int speed)
+    {
+        print("攻擊：" + speed);
+    }
 
+    private float attackup(float setattackup);
+    {
+      return setattackup * 20;
+    }
 
     #endregion
 }
