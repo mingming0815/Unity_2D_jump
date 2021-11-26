@@ -967,6 +967,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   blood: 100
+  attack1: 20
 --- !u!1 &537538890
 GameObject:
   m_ObjectHideFlags: 0
@@ -1223,7 +1224,7 @@ GameObject:
   - component: {fileID: 675700458}
   - component: {fileID: 675700460}
   - component: {fileID: 675700459}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: "\u5730\u677F"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
