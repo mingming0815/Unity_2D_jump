@@ -4,7 +4,7 @@ using UnityEngine;
 /// 控制器：2D 橫向捲軸模式
 /// </summary>
 
-public class Ｃontroller2D : MonoBehaviour
+public class Controller2D : MonoBehaviour
 {
     #region 欄位：公開
     [Header("移動速度"), Range(0, 100)]

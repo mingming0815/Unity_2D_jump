@@ -862,6 +862,7 @@ GameObject:
   - component: {fileID: 516398173}
   - component: {fileID: 516398172}
   - component: {fileID: 516398175}
+  - component: {fileID: 516398176}
   m_Layer: 0
   m_Name: "\u548C\u5C1A"
   m_TagString: Untagged
@@ -963,11 +964,32 @@ MonoBehaviour:
   m_GameObject: {fileID: 516398171}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0888cca6ca03439ea19967c51d574a3, type: 3}
+  m_Script: {fileID: 11500000, guid: 2fc9b73b3d9ac44aa97922384f5a8622, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  blood: 100
-  attack1: 20
+  interval: 0.3
+  goDialogue: {fileID: 0}
+  textContent: {fileID: 0}
+--- !u!114 &516398176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 516398171}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc700d250254440d9a1e69e527610b76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 3.5
+  jump: 500
+  checkGroundRedius: 0.1
+  checkGroundOffset: {x: 0, y: 0, z: 0}
+  KeyJump: 32
+  canJumpLayer:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &537538890
 GameObject:
   m_ObjectHideFlags: 0
