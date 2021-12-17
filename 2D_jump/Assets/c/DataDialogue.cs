@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 // 建立專案內的選單(mennuName = "選單名單") 資料夾/子資料
@@ -11,4 +12,14 @@ public class DataDialogue : ScriptableObject
 {
     [Header("對話內容"), TextArea(3, 5)]
     public string[] dialongues;
+
+    internal void StopDialogue()
+    {
+        throw new NotImplementedException();
+    }
+
+    internal void StartDialogue(string[] dialongues)
+    {
+        throw new NotImplementedException();
+    }
 }
