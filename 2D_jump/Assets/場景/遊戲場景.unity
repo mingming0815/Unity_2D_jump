@@ -639,6 +639,7 @@ GameObject:
   - component: {fileID: 119775006}
   - component: {fileID: 119775005}
   - component: {fileID: 119775007}
+  - component: {fileID: 119775008}
   m_Layer: 0
   m_Name: "\u5E2B\u5085"
   m_TagString: Untagged
@@ -731,6 +732,26 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &119775008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 119775004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 781df3d50cc2c4225973c86be4b5ddd7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  v3TrackSize: {x: 1, y: 1, z: 1}
+  v3TrackOffset: {x: 0, y: 0, z: 0}
+  speed: 1.5
+  layerTarget:
+    serializedVersion: 2
+    m_Bits: 64
+  parameterWalk: "\u958B\u95DC\u8D70\u8DEF"
+  target: {fileID: 516398174}
 --- !u!1 &131907094
 GameObject:
   m_ObjectHideFlags: 0
