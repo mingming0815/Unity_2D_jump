@@ -98,6 +98,9 @@ public class Controller2D : MonoBehaviour
 
         //剛體元件加速度.加速度 = 新 二維向量(h值 ＊ 移動速度,0);
         rig.velocity = new Vector2(h * speed, rig.velocity.y);
+
+        // 當 水平值 不等於零 勾選 走路參數
+        ani.SetBool(parameterWalk, h != 0);
     }
 
     ///<summary>
@@ -134,6 +137,9 @@ public class Controller2D : MonoBehaviour
         //print("碰到的物件名稱：" + hit.name);
 
         isGrounded = hit;
+
+        // 當 不在地板 勾選 跳躍開關
+        ani.SetBool(parameterJump, !isGrounded);
     }
 
     /// <summary>

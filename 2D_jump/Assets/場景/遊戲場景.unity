@@ -794,7 +794,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 119775004}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.2891746, y: -1.36, z: 0}
+  m_LocalPosition: {x: 4.6, y: 0.87, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -874,7 +874,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fc9b73b3d9ac44aa97922384f5a8622, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interval: 0.08
+  interval: 0.2
   goDialogue: {fileID: 537538890}
   textContent: {fileID: 846121386}
   goTip: {fileID: 1349807171}
@@ -1028,7 +1028,7 @@ GameObject:
   - component: {fileID: 516398178}
   - component: {fileID: 516398179}
   - component: {fileID: 516398177}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: "\u548C\u5C1A"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1114,7 +1114,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 516398171}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.7421637, y: -0.7892288, z: 0}
+  m_LocalPosition: {x: -7.83, y: -0.97, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1150,7 +1150,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3.5
-  jump: 700
+  jump: 850
   checkGroundRedius: 0.1
   checkGroundOffset: {x: 0, y: -1.01, z: 0}
   KeyJump: 32
@@ -2491,7 +2491,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.5679824, y: 1}
+    m_SensorSize: {x: 1.620614, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -2508,7 +2508,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 722994802}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.7421637, y: -0.7892288, z: -10}
+  m_LocalPosition: {x: -7.83, y: -0.97, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 17991624}
@@ -2902,7 +2902,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 949130525}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.7421637, y: -0.7892288, z: -10}
+  m_LocalPosition: {x: -7.83, y: -0.97, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -3389,7 +3389,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!95 &1349807172
 Animator:
   serializedVersion: 3
@@ -3959,7 +3959,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 3.3875859, y: 3.36}
+  m_Size: {x: 2.94, y: 3.36}
   m_EdgeRadius: 0
 --- !u!114 &1617479837
 MonoBehaviour:
@@ -3974,7 +3974,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dataDialogue: {fileID: 11400000, guid: 4043d48c078444b989c291e6c65aea5a, type: 2}
-  dialogueSystem: {fileID: 0}
+  dialogueSystem: {fileID: 131907095}
   target: "\u548C\u5C1A"
 --- !u!1 &1839931018
 GameObject:

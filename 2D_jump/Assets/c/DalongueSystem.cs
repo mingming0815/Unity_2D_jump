@@ -67,7 +67,7 @@ public class DalongueSystem : MonoBehaviour
     ///<summary>
     ///開始對話
     ///</summary>
-    ///<param name="contents">要顯示打字效果的對話內容</param>
+    ///<param name= "contents" >要顯示打字效果的對話內容</param>
     public void StartDialogue(string[] contents)
     {
         StartCoroutine(TypeEffect(contents));

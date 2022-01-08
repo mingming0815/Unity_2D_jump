@@ -3,6 +3,7 @@ using UnityEngine;
 
 // 建立專案內的選單(mennuName = "選單名單") 資料夾/子資料
 [CreateAssetMenu(menuName = "Say/對話資料")]
+
 ///<summary>
 ///對話資料
 /// 保存 NPC 要跟玩家對話內容
