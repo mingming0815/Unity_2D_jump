@@ -59,7 +59,7 @@ public class Controller2D : MonoBehaviour
     }
 
 
-    #region
+    #region 方法
     ///<summary>
     ///1. 玩家是否有按移動鍵 左右方向鍵 或 A、D
     ///2. 物件移動行為（API）
@@ -72,6 +72,9 @@ public class Controller2D : MonoBehaviour
 
         //剛體元件加速度.加速度 = 新 二維向量(h值 ＊ 移動速度,0);
         rig.velocity = new Vector2(h * speed, rig.velocity.y);
+
+        float U = Input.GetAxis("Vertical");
+        print("玩家上下按鍵值：" + U);
     }
 
     ///<summary>
@@ -96,6 +99,15 @@ public class Controller2D : MonoBehaviour
             transform.eulerAngles = Vector3.zero;
         }
     }
+
+    ///<summary>
+    ///檢查是否在地板
+    ///</summary>
+    private void CheckGround()
+    {
+
+    }
+
     #endregion
 
 
