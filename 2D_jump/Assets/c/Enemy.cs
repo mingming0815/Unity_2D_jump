@@ -65,7 +65,7 @@ public class Enemy : MonoBehaviour
         // 2D 物理.覆蓋盒形(中心、尺寸、角度)
         Collider2D hit =  Physics2D.OverlapBox(transform.position + transform.TransformDirection(v3TrackOffset), v3TrackSize, 0, layerTarget);
 
-        if (hit) Move();
+        if (hit) rig.velocity = new Vector2(-speed, rig.velocity.y);
     }
 
     ///<summary>
