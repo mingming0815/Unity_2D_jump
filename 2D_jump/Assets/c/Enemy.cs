@@ -16,13 +16,13 @@ public class Enemy : MonoBehaviour
     [Header("目標圖層")]
     public LayerMask layerTarget;
     [Header("動畫參數")] 
-    public string parameterWalk = "開關走路";
+    public string parameterWalk = "巫師飛翔";
     public string parameterAttack = "觸發攻擊";
     [Header("面向目標物件")]
     public Transform target;
-    [Header("攻擊距離")]
+    [Header("攻擊距離"), Range(0, 5)]
     public float attackDistance = 1.3f;
-    [Header("攻擊冷卻時間")]
+    [Header("攻擊冷卻時間"), Range(0, 10)]
     public float attackCD = 2.8f;
     [Header("檢查攻擊區域大小與位移")]
     public Vector3 v3AttackSize = Vector3.one;
@@ -65,7 +65,7 @@ public class Enemy : MonoBehaviour
         // 2D 物理.覆蓋盒形(中心、尺寸、角度)
         Collider2D hit =  Physics2D.OverlapBox(transform.position + transform.TransformDirection(v3TrackOffset), v3TrackSize, 0, layerTarget);
 
-        if (hit) rig.velocity = new Vector2(-speed, rig.velocity.y);
+        if (hit) Move();
     }
 
     ///<summary>
@@ -87,8 +87,10 @@ public class Enemy : MonoBehaviour
         }
 
         #region 移動
+
         // 三元運算子語法：布林值 ？ 當布林值 為 ture ： 當布林值 為 false ;
         angle = target.position.x > transform.position.x ? 100 : 0; // 「 > 」 後面為 三元運算值語法
+
         // 變形.歐拉角度 ＝ Y * 角度
         transform.eulerAngles = Vector3.up * angle; // 更新角色的角度
 
@@ -116,9 +118,8 @@ public class Enemy : MonoBehaviour
     private void Attack()
     {
 
-        #region
+        #region 攻擊
 
-        #endregion
         if (timerAttack < attackCD)
         {
             timerAttack += Time.deltaTime;
@@ -130,8 +131,9 @@ public class Enemy : MonoBehaviour
             Collider2D hit = Physics2D.OverlapBox(transform.position + transform.TransformDirection(v3AttackOffset), v3AttackSize, layerTarget);
             hit.GetComponent<HurtSystem>().Hurt(attack);
         }
+        #endregion
     }
 
-    #endregion
+#endregion
 
 }
