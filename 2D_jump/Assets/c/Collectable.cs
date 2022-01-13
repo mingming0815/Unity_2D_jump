@@ -15,16 +15,17 @@ public class Collectable : MonoBehaviour
     //rubyGO.ChamgeHealth(1);
     // Destroy(gameObject);
     // }
+   
+   //[Header("血量")]
+   //public float hp = 100;
 
-    [Header("血量")]
-    public float hp = 100;
+   // private float hpMax;
 
-    private float hpMax;
+    //public void Hurt(float damage)
+   // {
+  //      hp -= damage;
+    //    imgHpBar.fillAmount = hp / hpMax;
 
-    public void Hurt(float damage)
-    {
-        hp -= damage;
-        imgHpBar.fillAmount = hp / hpMax;
+  //  }
 
-    }
 }
