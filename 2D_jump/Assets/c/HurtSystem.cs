@@ -35,16 +35,6 @@ public class HurtSystem : MonoBehaviour
     }
 
 
-    /// <summary>
-    /// 嘗試回血
-    /// </summary>
-    /// <param name="damage"></param>
-    public void up(float damage)
-    {
-        hp += damage;
-        imgHpBar.fillAmount = hp / hpMax;
-        if (hp <= 0) Dead();
-    }
 
     /// <summary>
     /// 死亡
