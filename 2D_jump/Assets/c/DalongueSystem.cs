@@ -41,11 +41,13 @@ public class DalongueSystem : MonoBehaviour
 
         goDialogue.SetActive(true);  //顯示對話物件
 
+        print(1);
+
         for (int j = 0; j < contents.Length; j++) //遍尋所有對話
         {
 
             textContent.text = "";  //清除上次的對話內容
-            goDialogue.SetActive(false); //隱藏 提示圖示 三角形
+            goTip.SetActive(false); //隱藏 提示圖示 三角形
 
             for (int i = 0; i < contents[j].Length; i++) //遍尋所有對話的每一個字
             {
