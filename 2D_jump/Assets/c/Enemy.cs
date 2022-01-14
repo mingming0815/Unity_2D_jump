@@ -129,7 +129,7 @@ public class Enemy : MonoBehaviour
             ani.SetTrigger(parameterAttack);
             timerAttack = 0;
             Collider2D hit = Physics2D.OverlapBox(transform.position + transform.TransformDirection(v3AttackOffset), v3AttackSize, layerTarget);
-            hit.GetComponent<HurtSystem>().Hurt(attack);
+            if(hit) hit.GetComponent<HurtSystem>()?.Hurt(attack);
         }
         #endregion
     }
